@@ -1,4 +1,4 @@
-# MLInterview
+# Machine Learning & Data Science Interview
 
 > When you cease to dream, you cease to live.
 
