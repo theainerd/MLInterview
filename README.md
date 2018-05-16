@@ -14,7 +14,9 @@ From my research, I've found four main categories to study:
 ## Statistics & Probability
 [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
 ## Machine Learning
-## Programming 
+## Programming
+## Others
+
 
 
 
