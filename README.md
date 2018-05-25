@@ -16,11 +16,11 @@ I've found four main categories to study:
 ## Statistics & Probability
 * [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
 ## Machine Learning
+* [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 ## Programming
 * [How To Ace Data Science Interviews: R/Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
 ## Others
 
 * [SQL] [How To Ace Data Science Interviews: SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433)
-
-
-
+* [Metrics] [What is Precision and Recall](https://medium.com/@starang/precision-and-recall-a-brief-intro-38589a21a09)
+* [Blogs] [May Edition: Getting A Job In Data Science](https://towardsdatascience.com/may-edition-getting-a-job-in-data-science-125996b1734c)
