@@ -25,3 +25,4 @@ I've found four main categories to study:
 * [SQL] [How To Ace Data Science Interviews: SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433)
 * [Metrics] [What is Precision and Recall](https://medium.com/@starang/precision-and-recall-a-brief-intro-38589a21a09)
 * [Blogs] [May Edition: Getting A Job In Data Science](https://towardsdatascience.com/may-edition-getting-a-job-in-data-science-125996b1734c)
+* [Tips] [Ten Job Search Hacks Everybody Needs To Know](https://humanworkplace.com/blog/ten-job-search-hacks-everybody-needs-to-know)
