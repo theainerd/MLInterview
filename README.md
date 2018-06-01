@@ -52,7 +52,7 @@ I've found four main categories to study:
   
 * [niki.ai Careers](https://angel.co/niki/jobs)
 
-  **Email**: careers@niki.ai
+  **Email**: careers@niki.ai</br>
   **Year Founded**: 2015</br>
   Niki is an Artificial Intelligence powered bot that you can chat with - it will guide you along with recommendations to reach the right service and then goes to the last mile to make that transaction for you.
   
