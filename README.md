@@ -94,8 +94,20 @@ I've found four main categories to study:
 
   **Year Founded**: 2015</br>
   SigTuple analysis visual medical data through artificial intelligence to aid diagnosis using intelligent screening solutions.
+ 
+ 
   
-* [Tricog Careers](https://angel.co/tricog/jobs)
+### AI Companies For Pharma Sector
+
+* [Tricog Health Careers](https://angel.co/tricog/jobs)
 
   **Year Founded**: 2014</br>
   Tricog has a mission to reduce mortality caused by heart attacks by helping patients gain access to quick, accurate, and affordable diagnosis within minutes of their arrival at clinics.
+  
+* [Indegene Careers](https://careers.indegene.com/careers/Opportunities.aspx)
+
+  Indegene is an Information Technology and Services company that assists healthcare organisations using analytics and technology.
+  
+* [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)
+
+  It aims at cutting drug development costs by mainly using AI.
