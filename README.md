@@ -18,6 +18,7 @@ I've found four main categories to study:
 ## Machine Learning
 * [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 * [CNN] [Convolutional Neural Networks (CNNs / ConvNets)](http://cs231n.github.io/convolutional-networks/)
+* [Regularization] [Regularization. Clarified.](https://medium.com/data-science-group-iitr/regularization-a-smooth-trick-to-increase-robustness-of-regression-models-a5e8a91737ff)
 ## Programming
 * [How To Ace Data Science Interviews: R/Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
 ## Others
