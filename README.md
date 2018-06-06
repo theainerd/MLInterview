@@ -27,8 +27,11 @@ I've found four main categories to study:
 * [Learn SQL] [SQL Scavenger Hunt Handbook](https://www.kaggle.com/rtatman/sql-scavenger-hunt-handbook)
 * [Metrics] [What is Precision and Recall](https://medium.com/@starang/precision-and-recall-a-brief-intro-38589a21a09)
 * [Blogs] [May Edition: Getting A Job In Data Science](https://towardsdatascience.com/may-edition-getting-a-job-in-data-science-125996b1734c)
+
+## These tips will keep you way ahead in the race
 * [Tips] [Ten Job Search Hacks Everybody Needs To Know](https://humanworkplace.com/blog/ten-job-search-hacks-everybody-needs-to-know)
 * [Cover Letter Advice] [Your Cover Letter Should Be About Me, Not You](https://medium.com/@janetktaylor/your-cover-letter-should-be-about-me-not-you-3f9c0c21773f)
+* [Refresh Your Resume by Google](https://in.udacity.com/course/refresh-your-resume--ud243)
 
 ## Machine Learning/ Analytics Startups in India (Careers Page)
 
