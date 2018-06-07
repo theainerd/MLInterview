@@ -12,6 +12,8 @@ I've found four main categories to study:
 * Programming
   - Concepts for quiz-like questions
   - Practicals for interview coding sessions
+  
+[Data Science Interview Prep](https://in.udacity.com/course/data-science-interview-prep--ud944)
 
 ## Statistics & Probability
 * [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
