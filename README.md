@@ -16,10 +16,18 @@ I've found four main categories to study:
 [Data Science Interview Prep](https://in.udacity.com/course/data-science-interview-prep--ud944)
 
 ## Statistics & Probability
-* [https://towardsdatascience.com/intro-to-descriptive-statistics-252e9c464ac9](https://towardsdatascience.com/intro-to-descriptive-statistics-252e9c464ac9)
+* [Intro-to-Descriptive-Statistics](https://towardsdatascience.com/intro-to-descriptive-statistics-252e9c464ac9)
 * [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
 ## Machine Learning
-* [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+
+  ### Data Cleaning/Exploratory Analysis
+  * [Exploratory Data Analysis](https://www.youtube.com/watch?v=zHcQPKP6NpM&t=247s)
+
+    #### Handle Missing Data
+    
+    * [How to Handle Missing Data](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4)
+    * [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+    
 * [CNN] [Convolutional Neural Networks (CNNs / ConvNets)](http://cs231n.github.io/convolutional-networks/)
 * [Regularization] [Regularization. Clarified.](https://medium.com/data-science-group-iitr/regularization-a-smooth-trick-to-increase-robustness-of-regression-models-a5e8a91737ff)
 
