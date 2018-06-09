@@ -22,27 +22,29 @@ I've found four main categories to study:
 
   ### Data Cleaning/Exploratory Analysis
   * [Exploratory Data Analysis](https://www.youtube.com/watch?v=zHcQPKP6NpM&t=247s)
+  * [How to Handle Missing Data](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4)
+  * [Unboxing Outliers In Machine Learning](https://medium.com/datadriveninvestor/unboxing-outliers-in-machine-learning-d43fe40d88a6)  
 
-    #### Handle Missing Data
-    
-    * [How to Handle Missing Data](https://towardsdatascience.com/how-to-handle-missing-data-8646b18db0d4)
-    * [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
-    
-* [CNN] [Convolutional Neural Networks (CNNs / ConvNets)](http://cs231n.github.io/convolutional-networks/)
 * [Regularization] [Regularization. Clarified.](https://medium.com/data-science-group-iitr/regularization-a-smooth-trick-to-increase-robustness-of-regression-models-a5e8a91737ff)
 
   ### Metrics
   
   * [Choosing the Right Metric for Evaluating ML Models — Part 1](https://towardsdatascience.com/choosing-the-right-metric-for-machine-learning-models-part-1-a99d7d7414e4)
   * [Choosing the Right Metric for Evaluating Machine Learning Models — Part 2](https://towardsdatascience.com/choosing-the-right-metric-for-evaluating-machine-learning-models-part-2-86d5649a5428)
-  
+
+## Deep Learning
+* [Convolutional Neural Networks (CNNs / ConvNets)](http://cs231n.github.io/convolutional-networks/)
+## Natural Language Processing
+* [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+
+## Computer Vision
+
 ## Programming
 * [How To Ace Data Science Interviews: R/Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
 ## Others
 
 * [SQL] [How To Ace Data Science Interviews: SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433)
 * [Learn SQL] [SQL Scavenger Hunt Handbook](https://www.kaggle.com/rtatman/sql-scavenger-hunt-handbook)
-* [Metrics] [What is Precision and Recall](https://medium.com/@starang/precision-and-recall-a-brief-intro-38589a21a09)
 * [Blogs] [May Edition: Getting A Job In Data Science](https://towardsdatascience.com/may-edition-getting-a-job-in-data-science-125996b1734c)
 
 ## These tips will keep you way ahead in the race
