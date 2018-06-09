@@ -16,11 +16,18 @@ I've found four main categories to study:
 [Data Science Interview Prep](https://in.udacity.com/course/data-science-interview-prep--ud944)
 
 ## Statistics & Probability
+* [https://towardsdatascience.com/intro-to-descriptive-statistics-252e9c464ac9](https://towardsdatascience.com/intro-to-descriptive-statistics-252e9c464ac9)
 * [How To Ace Data Science Interviews: Statistics](https://towardsdatascience.com/how-to-ace-data-science-interviews-statistics-f3d363ad47b)
 ## Machine Learning
 * [How to solve 90% of NLP problems: a step-by-step guide](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
 * [CNN] [Convolutional Neural Networks (CNNs / ConvNets)](http://cs231n.github.io/convolutional-networks/)
 * [Regularization] [Regularization. Clarified.](https://medium.com/data-science-group-iitr/regularization-a-smooth-trick-to-increase-robustness-of-regression-models-a5e8a91737ff)
+
+  ### Metrics
+  
+  * [Choosing the Right Metric for Evaluating ML Models — Part 1](https://towardsdatascience.com/choosing-the-right-metric-for-machine-learning-models-part-1-a99d7d7414e4)
+  * [Choosing the Right Metric for Evaluating Machine Learning Models — Part 2](https://towardsdatascience.com/choosing-the-right-metric-for-evaluating-machine-learning-models-part-2-86d5649a5428)
+  
 ## Programming
 * [How To Ace Data Science Interviews: R/Python](https://towardsdatascience.com/how-to-ace-data-science-interviews-r-python-3a49982000de)
 ## Others
