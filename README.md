@@ -118,7 +118,14 @@ I've found four main categories to study:
 
   **Year Founded**: 2015</br>
   SigTuple analysis visual medical data through artificial intelligence to aid diagnosis using intelligent screening solutions.
- 
+  
+* [Agara Labs Careers](https://agaralabs.com/)
+
+  **Year Founded**: 2017</br>
+  **Email** : careers@agaralabs.com
+  Agara Labs is using deep learning to solve key problems at scale for global enterprises.
+  
+  
  
   
 ### AI Companies For Pharma Sector
