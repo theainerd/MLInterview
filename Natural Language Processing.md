@@ -28,7 +28,7 @@ Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatizati
 ![Bag of Words](https://github.com/theainerd/MLInterview/blob/master/images/bag.jpg)
 
 ## What is tf - idf?
-**TF-IDF** reveals what words are the most discriminating between different bodies of text. It is particularly, helpful if you are trying to see the difference between words that occur a lot in one document, but fail to appear in others allowing you interpret something special about that document. It is dependent on term frequency, how often a word appears, and Inverse document frequency, whether it is unique or common among all documents.
+**TF-IDF** reveals what words are the most discriminating between different bodies of text. It is dependent on term frequency, how often a word appears, and Inverse document frequency, whether it is unique or common among all documents. It is particularly, helpful if you are trying to see the difference between words that occur a lot in one document, but fail to appear in others allowing you interpret something special about that document.
 
 ## What is word2vec ?
 
