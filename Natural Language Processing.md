@@ -25,6 +25,7 @@ Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatizati
 
 ## What is Bag of Words?
 **Bag of words (BoW)** builds a vocabulary of all the unique words in our dataset, and associate a unique index to each word in the vocabulary.It is called a "bag" of words, because it is a representation that completely ignores the order of words.
+![Bag of Words][https://github.com/theainerd/MLInterview/blob/master/images/bag.jpg]
 
 ## What is tf - idf?
 **TF-IDF** reveals what words are the most discriminating between different bodies of text. It is particularly, helpful if you are trying to see the difference between words that occur a lot in one document, but fail to appear in others allowing you interpret something special about that document. It is dependent on term frequency, how often a word appears, and Inverse document frequency, whether it is unique or common among all documents.
