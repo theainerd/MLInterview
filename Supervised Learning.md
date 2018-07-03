@@ -5,7 +5,8 @@ _Supervised learning_ is where you have input data (X) and their corresponding o
 ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-03%2019-25-29.png)
 
 ## What is linear regression ?</br>
-_Linear Regression_ is a parametric, discriminative supervised learning algorithm to predict continuous value of  a target variable by fitting the best linear relationship between the dependent & independent variable.
+_Linear Regression_ is a parametric, discriminative supervised learning algorithm to predict continuous values of  a target variable by fitting the best linear relationship between the dependent & independent variable.
+![](https://github.com/theainerd/MLInterview/blob/master/images/maxresdefault.jpg)
 
 ## What is gradient descent ?</br>
 _Gradient Descent_ is an optimization algorithm that starts with intial set of parameter values and iteratively moves towards a set of values that minimize the function. This iterative minimization is done by taking steps towards the negative direction of the function gradient.
@@ -25,6 +26,8 @@ which are most near to it. It's a lazy learning technique because it goes throug
   - Distance Metric
         - Euclidean distance
         - Manhattan distance
+        
+ 
 
 ## How is KNN different from k-means clustering ?</br>
 K-Nearest Neighbors is a supervised classication algorithm, while k-means clustering is an unsupervised clustering algorithm. In order for K-Nearest Neighbors to work, you need labeled data you
