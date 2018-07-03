@@ -91,11 +91,9 @@ Given the training data, a decision tree algorithm divides the feature space int
 
 **Gini Index**: Measure of variance across all classes of the data. Measures the impurity of the data.</br>
 Ex. Given a binary classi cation problem, the number of positive
-cases equals the negative ones. GI = 1/2*(1–1/2)+1/2*(1–1/2)
-= 1/2 </br>
+cases equals the negative ones. GI = 1/2*(1–1/2)+1/2*(1–1/2) = 1/2 </br>
 
-This is maximum GI possible. As we split data, and move towards
-subtree, GI decreases to zero with increase in depth of tree.
+This is maximum GI possible. As we split data, and move towards subtree, GI decreases to zero with increase in depth of tree.
 
 **Entropy**: Measure of randomness. More the random data, higher the entropy.
 E = -p*log(p) ; p - probability
@@ -120,15 +118,15 @@ by using proper splitting criteria, this issue can be resolved.
 
 **Important Parameters**:
 
-- *Minimum Samples Split*: Minimum number of sample required to
+- **Minimum Samples Split**: Minimum number of sample required to
 split a node. This parameter helps in reducing over tting.
 High value: Underfitting, Low value: overfitting.
 
-- *Maximum Depth of a Tree*: Most in uential parameter. Gives limit
+- **Maximum Depth of a Tree**: Most in uential parameter. Gives limit
 on vertical depth decide upto which level pruning is required.
 Higher value: overfitting, Lower value: Underfitting
 
-- *Maximum Features*: At each node, while splitting either we can
+- **Maximum Features**: At each node, while splitting either we can
 chose best feature from pool of all the features or limited number of
 random features. This parameter adds a little randomness - good
 generalised model.
