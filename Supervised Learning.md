@@ -196,6 +196,7 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
     true positives.
 
 ## Explain how a ROC curve works?<br>
-The ROC curve is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds.</br>
-It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger
-a false alarm (false positives).
+The **ROC curve** is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds.</br>
+It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/maxresdefault.jpg)
