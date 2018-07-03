@@ -46,3 +46,5 @@ the cost function.
 
 
 ## How would you handle an imbalanced dataset?
+
+## how do you detect outliers?
