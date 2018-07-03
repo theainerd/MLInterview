@@ -1,24 +1,7 @@
 # Machine Learning Interview Questions
 
 ## What is supervised learning? </br>
-Supervised learning is where you have input data (X) and their corresponding output variables.
-
-## Parametric vs Nonparametric ?</br>
-A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model.</br>
-A learning model where the number of parameters is not determined prior to training. On the contrary, nonparametric models (can) become more and more complex with an increasing amount of data.
-
-## Discriminative vs Generative Learning Algorithm ?</br>
-Discriminative algorithms model p(y|x; w), that is, given the dataset and learned parameter, what is the probability of y belonging to a specific class. A discriminative algorithm doesn't care about how the data was generated, it simply categorizes a given example</br>
-
-Generative algorithms model p(x|y), that is, the distribution of features given that it belongs to a certain class. A generative algorithm models how the data was generated.</br>
-
-Given a training set, an algorithm like logistic regression or the perceptron algorithm (basically) tries to find a straight line—that is, a decision boundary—that separates the elephants and dogs. Then, to classify a new animal as either an elephant or a dog, it checks on which side of the decision boundary it falls, and makes its prediction accordingly.</br>
-
-First, looking at elephants, we can build a model of what elephants look like. Then, looking at dogs, we can build a separate model of what dogs look like. Finally, to classify a new animal, we can match the new animal against the elephant model, and match it against the dog model, to see whether the new animal looks more like the elephants or more like the dogs we had seen in the training set.
-
-## What is cross validation ?</br>
-
-Cross Validation is a technique to evaluate predictive models by partitioning the original sample into a training set to train the model, and a validation set to evaluate it. For ex: K fold CV divides the data into k folds, train on each k-1 folds and evaluate it on remaining 1 fold. The result of k models can be averaged to get a overall model performance.
+_Supervised learning_ is where you have input data (X) and their corresponding output variables.
 
 ## What is linear regression ?</br>
 _Linear Regression_ is a parametric, discriminative supervised learning algorithm to predict continuous value of  a target variable by fitting the best linear relationship between the dependent & independent variable.
@@ -56,25 +39,138 @@ unsupervised learning.
 It is a supervised learning algorithm based on bayes theorem. It classifies
 different instances into predefined classes, assuming there is no interdependency of features.
 
+**Pros**:
+- Easy and fast to predict class of test data set. Also, performs well
+in multi-class prediction.
+
+**Cons**:
+- Bad estimator: Probability outputs from predict_proba are not to
+be taken too seriously.
+
+- Assumption of independent predictors: In real life, it is almost
+impossible that we get a set of predictors which are completely
+independent.
+
 ## What is Support Vector Machines ? </br>
 _Support Vector Machines_ is an non-parametric, discriminative supervised learning algorithm
 which identifies optimal separating hyperplane which maximizes the margin between different classes of the training data.
 
+**Pros**:
+
+- It is really effective in higher dimension. If you have more features
+than training examples, most of the algorithms perform very bad,
+but SVM is the only algorithm which can saves you in this
+situation.
+- Best algorithm if you data are separable. That two classes are not
+mixed.
+- Only support vectors affect the optimally spaced hyperplane. So, it
+is less affected by outliers.
+
+**Cons**:
+
+- On large dataset it takes too much time. Mainly because of kernel
+function calculations and finding optimal hyperplane in higher
+dimensions.
+- Can not perform well in case of overlapping classes.
+- Can only give you 0–1 classification. Probably estimates
+computation are really expensive.
+
 ## What is bagging ? </br>
-Bagging is an ensemble technique mainly used to reduce the variance of our predictions
+_Bagging_ is an ensemble technique mainly used to reduce the variance of our predictions
 by combining the results of multiple classifiers modelled on different sub-samples of the same dataset. In Bagging, individual learner are trained in parallel.
 
 ## What is decision trees ? </br>
 Decision trees are non-parametric supervised learning algorithm.
 Given the training data, a decision tree algorithm divides the feature space into regions. For inference, we first see which region does the test data point fall in and take the mean label value (regression) or the majority label value ( classification )
 
+#### Finding the variable/feature for best split.
+
+**Gini Index**: Measure of variance across all classes of the data. Measures the impurity of the data.</br>
+Ex. Given a binary classi cation problem, the number of positive
+cases equals the negative ones. GI = 1/2*(1–1/2)+1/2*(1–1/2)
+= 1/2 </br>
+
+This is maximum GI possible. As we split data, and move towards
+subtree, GI decreases to zero with increase in depth of tree.
+
+**Entropy**: Measure of randomness. More the random data, higher the entropy.
+E = -p*log(p) ; p - probability
+
+**Information Gain**: Decrease in entropy. The di erence between the
+entropy before the split and the average entropy after split is obtained
+to decide when to split.
+
+The variable which provides maximum entropy gain is chosen!
+
+**Pros**:
+- Easy to understand and visualise.
+- Can be used for feature engineering.
+- Very little data preparation needed for algorithm.
+
+**Cons**:
+- If not tuned well, may lead to overfitting.
+- Unstable. Small variation in data leads to completely different tree
+formation.
+- In case of imbalanced dataset, decision trees are biased.However,
+by using proper splitting criteria, this issue can be resolved.
+
+**Important Parameters**:
+
+- *Minimum Samples Split*: Minimum number of sample required to
+split a node. This parameter helps in reducing over tting.
+High value: Underfitting, Low value: overfitting.
+
+- *Maximum Depth of a Tree*: Most in uential parameter. Gives limit
+on vertical depth decide upto which level pruning is required.
+Higher value: overfitting, Lower value: Underfitting
+
+- *Maximum Features*: At each node, while splitting either we can
+chose best feature from pool of all the features or limited number of
+random features. This parameter adds a little randomness - good
+generalised model.
+
 ## What is random forest ? </br>
 Random forest improves bagging further by adding some randomness. In random forest, only a subset of features are selected at random to construct a tree (while often not subsample instances). The benefit is that random forest decorrelates the trees.
 
 For example, suppose we have a dataset. There is one very predicative feature, and a couple of moderately predicative features. In bagging trees, most of the trees will use this very predicative feature in the top split, and therefore making most of the trees look similar, and highly correlated. Averaging many highly correlated results won't lead to a large reduction in variance compared with uncorrelated results. In random forest for each split we only consider a subset of the features and therefore reduce the variance even further by introducing more uncorrelated trees.
 
+**Pros**:
+- As it predicts by aggregating the predictions from smaller
+predictors the variance decreases. Less overfitting.
+- Useful when missing data is huge.
+
+**Cons**:
+- Better with classification than regression.
+- Black box approach: Many factors are random.
+- Slight increase in Bias
+
+**Parameters**:
+- **n_estimators**: Number of trees in the model. The larger the better,
+but the longer it will take to compute.
+
+- **max_features**: Size of the random subsets of features to consider
+when splitting a node. Lower the #features, greater the reduction
+in variance, but greater the increase in bias.
+
+- **feature_importances_**: The relative importances of each feature
+to the model. Features used in the tree at the top nodes are
+relatively more important as more data points are dependent on
+that feature.
+
+
 ## What is boosting ? </br>
 Boosting builds on weak learners, and in an iterative fashion. In each iteration, a new learner is added, while all existing learners are kept unchanged. All learners are weighted based on their performance (e.g., accuracy), and after a weak learner is added, the data are re-weighted: examples that are misclassified gain more weights, while examples that are correctly classified lose weights. Thus, future weak learners focus more on examples that previous weak learners misclassified.
+
+**Pros**:
+
+- Automatically do feature engineering.
+- Very little data preparation needed for algorithm.
+
+**Cons**:
+
+- Time and computation expensive.
+- Complexity of the classi cation increases.
+- Hard to implement in real time platform.
 
 
 ## Metrics
