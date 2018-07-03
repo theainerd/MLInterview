@@ -141,10 +141,9 @@ I've found four main categories to study:
   
 * [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)
 
+  It aims at cutting drug development costs by mainly using AI.
 ## Refrences
 
 * [Towards Data Science](https://towardsdatascience.com/)
 * [Data Science Group, IITR](https://medium.com/data-science-group-iitr)
 * [data-science-question-answer](https://github.com/ShuaiW/data-science-question-answer#cnn)
-
-  It aims at cutting drug development costs by mainly using AI.
