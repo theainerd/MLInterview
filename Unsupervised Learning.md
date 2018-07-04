@@ -16,3 +16,10 @@ entities in a particular group comparatively have more similar traits than entit
   - Agglomerative Hierarchical Clustering
 
 ## K- means Clustering ?
+k-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.
+
+## Determining The Optimal Number Of Clusters: 3 Must Know Methods?
+- Elbow method
+- Average silhouette method
+- Gap statistic method
+
