@@ -51,9 +51,7 @@ in multi-class prediction.
 - Bad estimator: Probability outputs from predict_proba are not to
 be taken too seriously.
 
-- Assumption of independent predictors: In real life, it is almost
-impossible that we get a set of predictors which are completely
-independent.
+- Assumption of independent predictors: In real life, it is almost impossible that we get a set of predictors which are completely independent.
 
 ## What is Support Vector Machines ? </br>
 _Support Vector Machines_ is an non-parametric, discriminative supervised learning algorithm
@@ -96,7 +94,8 @@ ID3 (Iterative Dichotomiser 3) → uses Entropy function and Information gain as
 
 **Gini Index**: Measure of variance across all classes of the data. Measures the impurity of the data.</br>
 Ex. Given a binary classi cation problem, the number of positive
-cases equals the negative ones. GI = 1/2*(1–1/2)+1/2*(1–1/2) = 1/2 </br>
+cases equals the negative ones. 
+GI = 1/2*(1–1/2)+1/2*(1–1/2) = 1/2 </br>
 
 This is maximum GI possible. As we split data, and move towards subtree, GI decreases to zero with increase in depth of tree.
 
