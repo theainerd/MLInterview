@@ -87,6 +87,11 @@ by combining the results of multiple classifiers modelled on different sub-sampl
 Decision trees are non-parametric supervised learning algorithm.
 Given the training data, a decision tree algorithm divides the feature space into regions. For inference, we first see which region does the test data point fall in and take the mean label value (regression) or the majority label value ( classification )
 
+There are couple of algorithms there to build a decision tree , we only talk about a few which are:
+
+CART (Classification and Regression Trees) → uses Gini Index(Classification) as metric.
+ID3 (Iterative Dichotomiser 3) → uses Entropy function and Information gain as metrics.
+
 #### Finding the variable/feature for best split.
 
 **Gini Index**: Measure of variance across all classes of the data. Measures the impurity of the data.</br>
@@ -98,9 +103,7 @@ This is maximum GI possible. As we split data, and move towards subtree, GI decr
 **Entropy**: Measure of randomness. More the random data, higher the entropy.
 E = -p*log(p) ; p - probability
 
-**Information Gain**: Decrease in entropy. The di erence between the
-entropy before the split and the average entropy after split is obtained
-to decide when to split.
+**Information Gain**: Decrease in entropy. The difference between the entropy before the split and the average entropy after split is obtained to decide when to split.
 
 The variable which provides maximum entropy gain is chosen!
 
