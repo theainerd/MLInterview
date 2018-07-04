@@ -3,9 +3,7 @@
 # Table of Contents
 * [Supervised Learning](#supervisedlearning)
 * [Linear Regression](#linearregression)
-* [Gradient Descent](#gd)
 * [Logistic Regression](#lr)
-* [Maximum Likelihood Estimation](#mle)
 * [K Nearest Neighbors](#knn)
 * [Naive Bayes](#nb)
 * [Support Vector Machines](#svm)
