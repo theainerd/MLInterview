@@ -1,3 +1,5 @@
+## Workflow of Data Science Project
+
 Given a data science / machine learning project, what steps should we follow? Here's
 how we should tackle it:
 
