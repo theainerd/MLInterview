@@ -185,7 +185,7 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
 **Cons**:
 
 - Time and computation expensive.
-- Complexity of the classi cation increases.
+- Complexity of the classiffication increases.
 - Hard to implement in real time platform.
 
 
