@@ -67,13 +67,35 @@ Before jumping to the methods of data imputation, we have to understand the reas
   - **Missing Completely at Random (MCAR)**: The fact that a certain value is missing has nothing to do with its hypothetical         value and with the values of other variables.
   - **Missing not at Random (MNAR)**: Two possible reasons are that the missing value depends on the hypothetical value (e.g.         People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable).
   
-
+  * Mean, Median and Mode Imputation
+  * Multiple Imputation
+  * KNN (K Nearest Neighbors)
 
 ## How would you handle an imbalanced dataset?
 * Using a better metrics like AUROC, Precision, Recall etc.
 * Cost-sensitive Learning
 * Over sampling of the minority class or Under sampling of the minority class.
-* SMOTE
+* SMOTE (Synthetic Minority Over-sampling Technique.)
 * Anomaly Detection
 
 ## how do you detect outliers?
+
+Outliers are extreme values that deviate from other observations on data , they may indicate a variability in a measurement, experimental errors or a novelty.
+
+Most common causes of outliers on a data set:
+
+* Data entry errors (human errors)
+* Measurement errors (instrument errors)
+* Experimental errors (data extraction or experiment planning/executing errors)
+* Intentional (dummy outliers made to test detection methods)
+* Data processing errors (data manipulation or data set unintended mutations)
+* Sampling errors (extracting or mixing data from wrong or various sources)
+
+Some of the most popular methods for outlier detection are:
+
+* Extreme Value Analysis: Determine the statistical tails of the underlying distribution of the data. For example, statistical methods like the z-scores on univariate data.
+* Probabilistic and Statistical Models: Determine unlikely instances from a probabilistic model of the data. For example, gaussian mixture models optimized using expectation-maximization.
+* Linear Models: Projection methods that model the data into lower dimensions using linear correlations. For example, principle component analysis and data with large residual errors may be outliers.
+* Proximity-based Models: Data instances that are isolated from the mass of the data as determined by cluster, density or nearest neighbor analysis.
+* Information Theoretic Models: Outliers are detected as data instances that increase the complexity (minimum code length) of the dataset.
+* High-Dimensional Outlier Detection: Methods that search subspaces for outliers give the breakdown of distance based measures in higher dimensions (curse of dimensionality).
