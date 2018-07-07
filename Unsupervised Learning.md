@@ -23,6 +23,12 @@ k-means clustering aims to partition n observations into k clusters in which eac
 - Average silhouette method
 - Gap statistic method
 
+## Hierarchical Clustering
+
+It is a type of connectivity model clustering which is based on the fact that data points that are closer to each other are more similar than the data points lying far away in a data space.
+
+As the name speaks for itself, the hierarchical clustering forms the hierarchy of the clusters that can be studied by visualising dendogram.
+
 ## Principal Component Analysis
 * Principal Component Analysis (PCA) is a dimension reduction technique that projects
 the data into a lower dimensional space
