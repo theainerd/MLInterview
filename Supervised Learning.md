@@ -207,20 +207,21 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
     Number of items wrongly identified as negative out of total
     true positives.
     
-    **RMSE (Root Mean Square Error)**</br>
+   - **RMSE (Root Mean Square Error)**</br>
     It represents the sample standard deviation of the differences between predicted values and observed values (called residuals).
     
-    **MAE**</br>
-    MAE is the average of the absolute difference between the predicted values and observed value. 
+   - **MAE**</br>
+   MAE is the average of the absolute difference between the predicted values and observed value. 
     
-    **R Squared (R²) and Adjusted R Squared**
+   - **R Squared (R²) and Adjusted R Squared**
     
-    R Squared & Adjusted R Squared are often used for explanatory purposes and explains how well your selected independent      variable(s) explain the variability in your dependent variable(s).
-   **Note** : Higher the MSE, smaller the R_squared and poorer is the model.
-
+   - R Squared & Adjusted R Squared are often used for explanatory purposes and explains how well your selected independent      variable(s) explain the variability in your dependent variable(s).
+   **Note** : Higher the MSE, smaller the R_squared and poorer is the model.</br>
    Just like R², adjusted R² also shows how well terms fit a curve or line but adjusts for the number of terms in a model.
 
 
 ## Explain how a ROC curve works?<br>
 The **ROC curve** is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds.</br>
 It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/1_tEo4x2-2iOZcnhSF13rUTA.png)
