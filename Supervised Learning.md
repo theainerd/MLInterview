@@ -69,6 +69,7 @@ be taken too seriously.
 _Support Vector Machines_ is an non-parametric, discriminative supervised learning algorithm
 which identifies optimal separating hyperplane which maximizes the margin between different classes of the training data.
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/svmhyperplane.png)
 **Pros**:
 
 - It is really effective in higher dimension. If you have more features
@@ -144,6 +145,7 @@ Higher value: overfitting, Lower value: Underfitting
 chose best feature from pool of all the features or limited number of
 random features. This parameter adds a little randomness - good
 generalised model.
+![](https://github.com/theainerd/MLInterview/blob/master/images/decision-forests-and-discriminant-analysis-77-638.jpg)
 
 ## What is random forest ? </br> <a name="rf">
 Random forest improves bagging further by adding some randomness. In random forest, only a subset of features are selected at random to construct a tree (while often not subsample instances). The benefit is that random forest decorrelates the trees.
