@@ -24,15 +24,17 @@ _Linear Regression_ is a parametric, discriminative supervised learning algorith
 _Gradient Descent_ is an optimization algorithm that starts with intial set of parameter values and iteratively moves towards a set of values that minimize the function. This iterative minimization is done by taking steps towards the negative direction of the function gradient.
 
 ## What is logistic regression ? <a name="lr"></br>
-_Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical.
+_Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical. It uses sigmoid function as an activation function which takes any real value as input and outputs a value between zero and one.
 The idea of logistic regression is to find  a relationship between features and probability of particular outcome.
 
 ## What is maximum likelihood estimation ? <a name="mle"></br>
 The principle of maximum likelihood states that we should choose
 parameters so as to make the data as high probability as possible. i.e we should choose parameters to maximize likelihood function.
 
+Note : **Probability** in this mathematical context describes the plausibility of a random outcome, given a model parameter value, without reference to any observed data. **Likelihood** describes the plausibility of a model parameter value, given specific observed data.
+
 ## What is K- Nearest Neighbors ?<a name="knn"></br>
-It's a classification algorithm in which we assign a label to new data based on the labels of training examples
+It's a non-parametric supervised learning algorithm in which we assign a label to new data based on the labels of training examples
 which are most near to it. It's a lazy learning technique because it goes through complete training data everytime it needs to predict a test sample.
 
   - Distance Metric
