@@ -67,6 +67,8 @@ be taken too seriously.
 
 - Assumption of independent predictors: In real life, it is almost impossible that we get a set of predictors which are completely independent.
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/seashell.png)
+
 ## What is Support Vector Machines ? <a name="svm"></br>
 _Support Vector Machines_ is an non-parametric, discriminative supervised learning algorithm
 which identifies optimal separating hyperplane which maximizes the margin between different classes of the training data.
@@ -147,8 +149,7 @@ Higher value: overfitting, Lower value: Underfitting
 chose best feature from pool of all the features or limited number of
 random features. This parameter adds a little randomness - good
 generalised model.
-![](https://github.com/theainerd/MLInterview/blob/master/images/decision-forests-and-discriminant-analysis-77-638.jpg)
-
+![](https://github.com/theainerd/MLInterview/blob/master/images/image5.png)
 ## What is random forest ? </br> <a name="rf">
 Random forest improves bagging further by adding some randomness. In random forest, only a subset of features are selected at random to construct a tree (while often not subsample instances). The benefit is that random forest decorrelates the trees.
 
@@ -176,7 +177,7 @@ in variance, but greater the increase in bias.
 to the model. Features used in the tree at the top nodes are
 relatively more important as more data points are dependent on
 that feature.
-
+![](https://github.com/theainerd/MLInterview/blob/master/images/decision-forests-and-discriminant-analysis-77-638.jpg)
 
 ## What is boosting ? </br> <a name="boosting">
 Boosting builds on weak learners, and in an iterative fashion. In each iteration, a new learner is added, while all existing learners are kept unchanged. All learners are weighted based on their performance (e.g., accuracy), and after a weak learner is added, the data are re-weighted: examples that are misclassified gain more weights, while examples that are correctly classified lose weights. Thus, future weak learners focus more on examples that previous weak learners misclassified.
