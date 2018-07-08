@@ -1,7 +1,8 @@
 # Unsupervised Learning
 
 ## What is unsupervised Learning? </br>
-Unsupervised learning is where you only have input data (X) and no corresponding output variables.
+Unsupervised learning is where you only have input data (X) and no corresponding output variables. </br>
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-08%2009-51-27.png)
 
 ## What is clustering?</br>
 It's an machine learning technique which segregate the various data points into different groups called clusters such that
