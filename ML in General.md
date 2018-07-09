@@ -1,3 +1,10 @@
+## Data Mining Vs Machine Learning
+
+Machine learning focuses on prediction, based on known properties learned from the training data.</br>
+Data mining focuses on the discovery of (previously) unknown properties in the data. This is the analysis step of Knowledge Discovery in Databases.
+
+**Note** : If you have a better explanation a pull request would be a lot helpful.
+
 ## Workflow of Data Science Project
 
 Given a data science / machine learning project, what steps should we follow? Here's
@@ -19,6 +26,7 @@ how we should tackle it:
 * **Iterate.** Iterate the previous steps. Data science tends to be an iterative process, with new and improved models being developed over time.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/workflow.png)
+
 ## Parametric vs Nonparametric ?</br>
 A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a **parametric model**.</br>
 A learning model where the number of parameters is not determined prior to training. On the contrary, nonparametric models (can) become more and more complex with an increasing amount of data.
