@@ -182,6 +182,12 @@ that feature.
 ## What is boosting ? </br> <a name="boosting">
 Boosting builds on weak learners, and in an iterative fashion. In each iteration, a new learner is added, while all existing learners are kept unchanged. All learners are weighted based on their performance (e.g., accuracy), and after a weak learner is added, the data are re-weighted: examples that are misclassified gain more weights, while examples that are correctly classified lose weights. Thus, future weak learners focus more on examples that previous weak learners misclassified.
 
+### Types of Boosting Algorithms
+
+* **AdaBoost (Adaptive Boosting)**
+* **Gradient Tree Boosting**
+* **XGBoost**
+
 **Pros**:
 
 - Automatically do feature engineering.
@@ -195,13 +201,23 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
 
 
 ## Metrics <a name="metrics">
-
+   
+   - **Accuracy**
+     Accuracy is the fraction of predictions our model got right.</br>
+     Suppose you build a model that classified 100 tumors as malignant (the positive class) or benign (the negative class):
+     ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-40-16.png)
+     
   - **Recall or Sensitivity or True Positive Rate**</br>
+    ![](https://github.com/theainerd/MLInterview/blob/master/images/Precisionrecall.svg.png)
+    
     Number of items correctly identified as positive out of total true positives.
+    ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-47-10.png)
+    Our model has a recall of 0.11—in other words, it correctly identifies 11% of all malignant tumors.
 
   - **Precision** </br>
     Number of items correctly identified as positive out of total items identified as positive.
-
+    ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-46-53.png)
+    Our model has a precision of 0.5—in other words, when it predicts a tumor is malignant, it is correct 50% of the time.
   - **Specificity**</br>
     Number of items correctly identified as negative out of total true negatives.
 
@@ -229,4 +245,4 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
 The **ROC curve** is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds.</br>
 It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
 
-![](https://github.com/theainerd/MLInterview/blob/master/images/1_tEo4x2-2iOZcnhSF13rUTA.png)
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-27-32.png)
