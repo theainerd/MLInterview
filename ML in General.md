@@ -1,14 +1,31 @@
+## Types of Artificial Intelligence Learning Models
+
+### AI Learning Models: Knowledge-Based Classification
+- **Inductive Learning**: This type of AI learning model is based on inferring a general rule from datasets of input-output pairs.
+- **Deductive Learning**:  This type of AI learning technique starts with a series of rules and infers new rules that are more efficient in the context of a specific AI algorithm.
+
+### AI Learning Models: Feedback-Based Classification
+
+Based on the feedback characteristics, AI learning models can be classified as supervised, unsupervised, semi-supervised or reinforced.
+
+—  **Unsupervised Learning**: Unsupervised models focus on learning a pattern in the input data without any external feedback. Clustering is a classic example of unsupervised learning models.
+
+—  **Supervised Learning**: Supervised learning models use external feedback to learning functions that map inputs to output observations. In those models the external environment acts as a “teacher” of the AI algorithms.
+
+—  **Semi-supervised Learning**: Semi-supervised learning is a class of supervised learning tasks and techniques that also make use of unlabeled data for training – typically a small amount of labeled data with a large amount of unlabeled data.
+
+—  **Reinforcement Learning**: Reinforcement learning models use opposite dynamics such as rewards and punishment to “reinforce” different types of knowledge. This type of learning technique is becoming really popular in modern AI solutions.
+
 ## Data Mining Vs Machine Learning
 
-Machine learning focuses on prediction, based on known properties learned from the training data.</br>
-Data mining focuses on the discovery of (previously) unknown properties in the data. This is the analysis step of Knowledge Discovery in Databases.
+**Machine learning** focuses on prediction, based on known properties learned from the training data.</br>
+**Data mining** focuses on the discovery of (previously) unknown properties in the data. This is the analysis step of Knowledge Discovery in Databases.
 
-**Note** : If you have a better explanation a pull request would be a lot helpful.
+**Note** : If you have a better explanation a pull request would be helpful.
 
 ## Workflow of Data Science Project
 
-Given a data science / machine learning project, what steps should we follow? Here's
-how we should tackle it:
+Given a data science / machine learning project, what steps should we follow? Here's how we should tackle it:
 
 * **Specify business objective.** Are we trying to win more customers, achieve higher satisfaction, or gain more revenues?
 * **Define problem.** What is the specific gap in your ideal world and the real one that requires machine learning to fill? Ask questions that can be addressed using your data and predictive modeling (ML algorithms).
