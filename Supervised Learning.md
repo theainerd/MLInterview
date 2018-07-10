@@ -188,6 +188,8 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
 * **Gradient Tree Boosting**
 * **XGBoost**
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-10%2016-29-57.png)
+
 **Pros**:
 
 - Automatically do feature engineering.
