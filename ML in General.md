@@ -1,10 +1,25 @@
-## Types of Artificial Intelligence Learning Models
+# Table of Contents
+* [Types of Artificial Intelligence Learning Models](#aimodels)
+  * [Knowledge-Based Classification](#kbc)
+  * [Feedback-Based Classification](#fbc)
+* [Data Mining Vs Machine Learning](#mlvsdm)
+* [Workflow of Machine Learning Project](#workflow)
+* [Parametric vs Nonparametric](#tric)
+* [Discriminative vs Generative Learning Algorithm](#dam)
+* [Cross Validation](#cv)
+* [Overfitting](#of)
+* [Regularization](#reg)
+* [Handle missing or Corrupted data](#missing)
+* [Imbalanced Datasets](#imb)
+* [Outliers](#out)
 
-### AI Learning Models: Knowledge-Based Classification
+## Types of Artificial Intelligence Learning Models  <a name="aimodels"> </br>
+
+### AI Learning Models: Knowledge-Based Classification  <a name="kbc"> </br>
 - **Inductive Learning**: This type of AI learning model is based on inferring a general rule from datasets of input-output pairs.
 - **Deductive Learning**:  This type of AI learning technique starts with a series of rules and infers new rules that are more efficient in the context of a specific AI algorithm.
 
-### AI Learning Models: Feedback-Based Classification
+### AI Learning Models: Feedback-Based Classification <a name="fbc"> </br>
 
 Based on the feedback characteristics, AI learning models can be classified as supervised, unsupervised, semi-supervised or reinforced.
 
@@ -13,17 +28,18 @@ Based on the feedback characteristics, AI learning models can be classified as s
 —  **Supervised Learning**: Supervised learning models use external feedback to learning functions that map inputs to output observations. In those models the external environment acts as a “teacher” of the AI algorithms.
 
 —  **Semi-supervised Learning**: Semi-supervised learning is a class of supervised learning tasks and techniques that also make use of unlabeled data for training – typically a small amount of labeled data with a large amount of unlabeled data.
+The goal of a semi-supervised model is to classify some of the unlabeled data using the labeled information set.
 
 —  **Reinforcement Learning**: Reinforcement learning models use opposite dynamics such as rewards and punishment to “reinforce” different types of knowledge. This type of learning technique is becoming really popular in modern AI solutions.
 
-## Data Mining Vs Machine Learning
+## Data Mining Vs Machine Learning <a name="mlvsdm"></br>
 
 **Machine learning** focuses on prediction, based on known properties learned from the training data.</br>
 **Data mining** focuses on the discovery of (previously) unknown properties in the data. This is the analysis step of Knowledge Discovery in Databases.
 
 **Note** : If you have a better explanation a pull request would be helpful.
 
-## Workflow of Data Science Project
+## Workflow of Data Science Project <a name="workflow"></br>
 
 Given a data science / machine learning project, what steps should we follow? Here's how we should tackle it:
 
@@ -44,29 +60,32 @@ Given a data science / machine learning project, what steps should we follow? He
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/workflow.png)
 
-## Parametric vs Nonparametric ?</br>
+## Parametric vs Nonparametric ?</br> <a name="tric"></br>
 A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a **parametric model**.</br>
 A learning model where the number of parameters is not determined prior to training. On the contrary, nonparametric models (can) become more and more complex with an increasing amount of data.
 
-## Discriminative vs Generative Learning Algorithm ?</br>
+## Discriminative vs Generative Learning Algorithm ?</br> <a name="dam"></br>
 **Discriminative algorithms model p(y|x; w)**, that is, given the dataset and learned parameter, what is the probability of y belonging to a specific class. A discriminative algorithm doesn't care about how the data was generated, it simply categorizes a given example</br>
+Ex: Linear Regression, Logistic Regression, Support Vector Machines etc.
 
 **Generative algorithms model p(x|y)**, that is, the distribution of features given that it belongs to a certain class. A generative algorithm models how the data was generated.</br>
+Ex: Naive Bayes, Hidden Markov Models etc.
 
 Given a training set, an algorithm like logistic regression or the perceptron algorithm (basically) tries to find a straight line—that is, a decision boundary—that separates the elephants and dogs. Then, to classify a new animal as either an elephant or a dog, it checks on which side of the decision boundary it falls, and makes its prediction accordingly.</br>
 
 First, looking at elephants, we can build a model of what elephants look like. Then, looking at dogs, we can build a separate model of what dogs look like. Finally, to classify a new animal, we can match the new animal against the elephant model, and match it against the dog model, to see whether the new animal looks more like the elephants or more like the dogs we had seen in the training set.
 
-## What is cross validation ?</br>
+## What is cross validation ?</br> <a name="cv"></br>
 
 Cross Validation is a technique to evaluate predictive models by partitioning the original sample into a training set to train the model, and a validation set to evaluate it. For ex: K fold CV divides the data into k folds, train on each k-1 folds and evaluate it on remaining 1 fold. The result of k models can be averaged to get a overall model performance.
+![](https://github.com/theainerd/MLInterview/blob/master/images/10_fold_cv.png)
 
-## What is overfitting?
+## What is overfitting? <a name="of"></br>
 
-Overfitting or High Variance is a modeling error which is caused by a hypothesis function that fits the training data
-but does not generalise well to predict new data.
+Overfitting or High Variance is a modeling error which is caused by a hypothesis function that fits the training data too close but does not generalise well to predict new data.
+![](https://github.com/theainerd/MLInterview/blob/master/images/partitions-underfitting-vs-overfitting-regression-via-polynomial-degree.png)
 
-## What is regularization?
+## What is regularization? <a name="reg"></br>
 
 Regulariztion is a technique to prevent overfitting by penalizing the coefficients of the cost function.
 
@@ -85,7 +104,7 @@ Regulariztion is a technique to prevent overfitting by penalizing the coefficien
   and Ridge regression is used to tackle the limitations of both Ridge and
   Lasso Regression.
 
-## How do you handle missing or corrupted data in a dataset?
+## How do you handle missing or corrupted data in a dataset? <a name="missing"></br>
 Before jumping to the methods of data imputation, we have to understand the reason why data goes missing.
 
   - **Missing at Random (MAR)**: Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data.
@@ -96,14 +115,14 @@ Before jumping to the methods of data imputation, we have to understand the reas
   * Multiple Imputation
   * KNN (K Nearest Neighbors)
 
-## How would you handle an imbalanced dataset?
+## How would you handle an imbalanced dataset? <a name="imb"></br>
 * Using a better metrics like AUROC, Precision, Recall etc.
 * Cost-sensitive Learning
-* Over sampling of the minority class or Under sampling of the minority class.
+* Over sampling of the minority class or Under sampling of the majority class.
 * SMOTE (Synthetic Minority Over-sampling Technique.)
 * Anomaly Detection
 
-## how do you detect outliers?
+## how do you detect outliers? <a name="out"></br>
 
 Outliers are extreme values that deviate from other observations on data , they may indicate a variability in a measurement, experimental errors or a novelty.
 
@@ -118,9 +137,9 @@ Most common causes of outliers on a data set:
 
 Some of the most popular methods for outlier detection are:
 
-* Extreme Value Analysis: Determine the statistical tails of the underlying distribution of the data. For example, statistical methods like the z-scores on univariate data.
-* Probabilistic and Statistical Models: Determine unlikely instances from a probabilistic model of the data. For example, gaussian mixture models optimized using expectation-maximization.
-* Linear Models: Projection methods that model the data into lower dimensions using linear correlations. For example, principle component analysis and data with large residual errors may be outliers.
-* Proximity-based Models: Data instances that are isolated from the mass of the data as determined by cluster, density or nearest neighbor analysis.
-* Information Theoretic Models: Outliers are detected as data instances that increase the complexity (minimum code length) of the dataset.
-* High-Dimensional Outlier Detection: Methods that search subspaces for outliers give the breakdown of distance based measures in higher dimensions (curse of dimensionality).
+* **Extreme Value Analysis**: Determine the statistical tails of the underlying distribution of the data. For example, statistical methods like the z-scores on univariate data.
+* **Probabilistic and Statistical Models**: Determine unlikely instances from a probabilistic model of the data. For example, gaussian mixture models optimized using expectation-maximization.
+* **Linear Models**: Projection methods that model the data into lower dimensions using linear correlations. For example, principle component analysis and data with large residual errors may be outliers.
+* **Proximity-based Models**: Data instances that are isolated from the mass of the data as determined by cluster, density or nearest neighbor analysis.
+* **Information Theoretic Models**: Outliers are detected as data instances that increase the complexity (minimum code length) of the dataset.
+* **High-Dimensional Outlier Detection**: Methods that search subspaces for outliers give the breakdown of distance based measures in higher dimensions (curse of dimensionality).
