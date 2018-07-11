@@ -23,6 +23,8 @@ _Linear Regression_ is a parametric, discriminative supervised learning algorith
 ## What is gradient descent ? <a name="gd"></br>
 _Gradient Descent_ is an optimization algorithm that starts with intial set of parameter values and iteratively moves towards a set of values that minimize the function. This iterative minimization is done by taking steps towards the negative direction of the function gradient.
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/1_7VyTVnlVj2Ooqa3MRSRFEQ.gif)
+
 ## What is logistic regression ? <a name="lr"></br>
 _Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical. It uses sigmoid function as an activation function which takes any real value as input and outputs a value between zero and one.
 The idea of logistic regression is to find  a relationship between features and probability of particular outcome.
