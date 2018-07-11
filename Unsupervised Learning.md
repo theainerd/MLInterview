@@ -11,13 +11,16 @@ entities in a particular group comparatively have more similar traits than entit
 ## Top 5 Clustering Algorithms to know
 
   - K-Means Clustering
+  - Agglomerative Hierarchical Clustering
   - Mean-Shift Clustering
   - Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
   - Expectation–Maximization (EM) Clustering using Gaussian Mixture Models (GMM)
-  - Agglomerative Hierarchical Clustering
+  
 
 ## K- means Clustering ?
 k-means clustering aims to partition n observations into k clusters in which each observation belongs to the cluster with the nearest mean.
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/1_KrcZK0xYgTa4qFrVr0fO2w.gif)
 
 ## Determining The Optimal Number Of Clusters: 3 Must Know Methods?
 - Elbow method
@@ -29,6 +32,8 @@ k-means clustering aims to partition n observations into k clusters in which eac
 It is a type of connectivity model clustering which is based on the fact that data points that are closer to each other are more similar than the data points lying far away in a data space.
 
 As the name speaks for itself, the hierarchical clustering forms the hierarchy of the clusters that can be studied by visualising dendogram.
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/1_ET8kCcPpr893vNZFs8j4xg.gif)
 
 ## Principal Component Analysis
 * Principal Component Analysis (PCA) is a dimension reduction technique that projects
