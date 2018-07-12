@@ -22,6 +22,17 @@ k-means clustering aims to partition n observations into k clusters in which eac
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/1_KrcZK0xYgTa4qFrVr0fO2w.gif)
 
+### K-Means Clustering Algorithm
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/kmeansclusteringalgo.png)
+
+## Pros
+* K-Means has the advantage that it’s pretty fast, as all we’re really doing is computing the distances between points and group centers; very few computations! It thus has a linear complexity O(n).
+
+## Cons
+* You have to select how many groups/classes there are.
+* K-means also starts with a random choice of cluster centers and therefore it may yield different clustering results on different runs of the algorithm. Thus, the results may not be repeatable and lack consistency.
+
 ## Determining The Optimal Number Of Clusters: 3 Must Know Methods?
 - Elbow method
 - Average silhouette method
@@ -34,6 +45,13 @@ It is a type of connectivity model clustering which is based on the fact that da
 As the name speaks for itself, the hierarchical clustering forms the hierarchy of the clusters that can be studied by visualising dendogram.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/1_ET8kCcPpr893vNZFs8j4xg.gif)
+
+## Pros
+
+* Hierarchical clustering does not require us to specify the number of clusters and we can even select which number of clusters looks best since we are building a tree. 
+
+## Cons
+* Lower efficiency, as it has a time complexity of O(n³)
 
 ## Principal Component Analysis
 * Principal Component Analysis (PCA) is a dimension reduction technique that projects
