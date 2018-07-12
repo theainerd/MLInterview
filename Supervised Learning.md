@@ -76,6 +76,19 @@ _Support Vector Machines_ is an non-parametric, discriminative supervised learni
 which identifies optimal separating hyperplane which maximizes the margin between different classes of the training data.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/svmhyperplane.png)
+
+### Kernel Functions
+
+Kernel methods owe their name to the use of kernel functions, which enable them to operate in a high-dimensional feature space without ever computing the coordinates of the data in that space, but rather by simply computing the inner products between the images of all pairs of data in the feature space.
+
+**Note** : Any linear model can be turned into a non-linear model by applying the kernel trick to the model: replacing its features (predictors) by a kernel function
+
+### Examples of SVM Kernels
+
+* Polynomial kernel
+* Gaussian radial basis function (RBF)
+* Sigmoid kernel
+
 **Pros**:
 
 - It is really effective in higher dimension. If you have more features
