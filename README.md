@@ -125,8 +125,10 @@ I've found four main categories to study:
   **Email** : careers@agaralabs.com
   Agara Labs is using deep learning to solve key problems at scale for global enterprises.
   
-  
- 
+* [Analytics Vidya Careers](https://www.analyticsvidhya.com/about-me/career-analytics-vidhya/)
+
+  **Year Founded**: 2014</br>
+  This platform allows people to know more about analytics from its articles, Q&A forum, and learning paths. Also, we help professionals & amateurs to sharpen their skillsets by providing a platform to participate in Hackathons. 
   
 ### AI Companies For Pharma Sector
 
