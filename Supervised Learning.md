@@ -258,8 +258,7 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
    - R Squared & Adjusted R Squared (_goodness of fit measure_) are often used for explanatory purposes and explains how well your selected independent      variable(s) explain the variability in your dependent variable(s).</br>
    **Note** : Higher the MSE, smaller the R_squared and poorer is the model.</br>
    Just like R², adjusted R² also shows how well terms fit a curve or line but adjusts for the number of terms in a model.
-   
-   **Note**The more predictors you add the higher R^2 become hence use adjusted R^2 which adjusts for the degrees of freedom.
+   **Note** : The more predictors you add the higher R^2 become hence use adjusted R^2 which adjusts for the degrees of freedom.
 
 
 ## Explain how a ROC curve works?<br>
