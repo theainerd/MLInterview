@@ -29,6 +29,8 @@ _Gradient Descent_ is an optimization algorithm that starts with intial set of p
 _Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical. It uses sigmoid function as an activation function which takes any real value as input and outputs a value between zero and one.
 The idea of logistic regression is to find  a relationship between features and probability of particular outcome.
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/20170513_gradient_descent_logistic_animation.gif)
+
 ## What is maximum likelihood estimation ? <a name="mle"></br>
 The principle of maximum likelihood states that we should choose
 parameters so as to make the data as high probability as possible. i.e we should choose parameters to maximize likelihood function.
@@ -253,9 +255,11 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
     
    - **R Squared (R²) and Adjusted R Squared**
     
-   - R Squared & Adjusted R Squared are often used for explanatory purposes and explains how well your selected independent      variable(s) explain the variability in your dependent variable(s).
+   - R Squared & Adjusted R Squared (_goodness of fit measure_) are often used for explanatory purposes and explains how well your selected independent      variable(s) explain the variability in your dependent variable(s).</br>
    **Note** : Higher the MSE, smaller the R_squared and poorer is the model.</br>
    Just like R², adjusted R² also shows how well terms fit a curve or line but adjusts for the number of terms in a model.
+   
+   **Note**The more predictors you add the higher R^2 become hence use adjusted R^2 which adjusts for the degrees of freedom.
 
 
 ## Explain how a ROC curve works?<br>
