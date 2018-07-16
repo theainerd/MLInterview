@@ -132,7 +132,7 @@ I've found four main categories to study:
   
 * [Sigmoid Careers](https://www.sigmoid.com/careers/current-openings/)
 
-  **Year Founded**: 2013
+  **Year Founded**: 2013</br>
   Sigmoid is a leading big data and advanced analytics firm that specializes in data science and data engineering solutions around the world. Sigmoid has revolutionized the areas of business intelligence, AI and machine learning by solving diverse use cases across hi-tech industries.
   
 
