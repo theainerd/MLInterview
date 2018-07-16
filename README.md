@@ -128,7 +128,14 @@ I've found four main categories to study:
 * [Analytics Vidya Careers](https://www.analyticsvidhya.com/about-me/career-analytics-vidhya/)
 
   **Year Founded**: 2014</br>
-  This platform allows people to know more about analytics from its articles, Q&A forum, and learning paths. Also, we help professionals & amateurs to sharpen their skillsets by providing a platform to participate in Hackathons. 
+  This platform allows people to know more about analytics from its articles, Q&A forum, and learning paths. Also, we help professionals & amateurs to sharpen their skillsets by providing a platform to participate in Hackathons.
+  
+* [Sigmoid Careers](https://www.sigmoid.com/careers/current-openings/)
+
+  **Year Founded**: 2013
+  Sigmoid is a leading big data and advanced analytics firm that specializes in data science and data engineering solutions around the world. Sigmoid has revolutionized the areas of business intelligence, AI and machine learning by solving diverse use cases across hi-tech industries.
+  
+
   
 ### AI Companies For Pharma Sector
 
