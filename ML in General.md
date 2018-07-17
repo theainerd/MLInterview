@@ -9,6 +9,7 @@
 * [Cross Validation](#cv)
 * [Overfitting](#of)
 * [Regularization](#reg)
+* [Loss Functions for Regression and Classification](#lossfun)
 * [Handle missing or Corrupted data](#missing)
 * [Imbalanced Datasets](#imb)
 * [Outliers](#out)
@@ -103,7 +104,17 @@ Regulariztion is a technique to prevent overfitting by penalizing the coefficien
   A technique known as Elastic Nets, which is a combination of Lasso
   and Ridge regression is used to tackle the limitations of both Ridge and
   Lasso Regression.
+  
+  
+## Loss Functions for Regression and Classification? <a name="lossfun"></br>
 
+* **Regression Loss Function**
+    * Square or l2 loss (not robust)
+    * Absolute or Laplace loss (not differentiable)
+    * Huber Loss (robust and differentiable)
+* **Classification Loss Function**
+    * SVM/Hinge loss
+    * log loss
 ## How do you handle missing or corrupted data in a dataset? <a name="missing"></br>
 Before jumping to the methods of data imputation, we have to understand the reason why data goes missing.
 
