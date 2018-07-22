@@ -26,7 +26,7 @@ _Gradient Descent_ is an optimization algorithm that starts with intial set of p
 ![](https://github.com/theainerd/MLInterview/blob/master/images/1_7VyTVnlVj2Ooqa3MRSRFEQ.gif)
 
 ## What is logistic regression ? <a name="lr"></br>
-_Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical. It uses sigmoid function as an activation function which takes any real value as input and outputs a value between zero and one.
+_Logistic regression_ is a parametric, discriminative supervised learning algorithm for classification, i.e used where the response variable is categorical by applying a sigmoid function to a linear prediction.
 The idea of logistic regression is to find  a relationship between features and probability of particular outcome.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/20170513_gradient_descent_logistic_animation.gif)
@@ -259,6 +259,10 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
    **Note** : Higher the MSE, smaller the R_squared and poorer is the model.</br>
    Just like R², adjusted R² also shows how well terms fit a curve or line but adjusts for the number of terms in a model.
    **Note** : The more predictors you add the higher R^2 become hence use adjusted R^2 which adjusts for the degrees of freedom.
+   
+   - **Confusion Matrix**
+   
+   An NxN matrix where N is the no. of classes, that summarizes how successful a classification model's predictions were;
 
 
 ## Explain how a ROC curve works?<br>
