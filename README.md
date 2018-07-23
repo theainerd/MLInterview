@@ -151,6 +151,11 @@ I've found four main categories to study:
 * [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)
 
   It aims at cutting drug development costs by mainly using AI.
+  
+ * [HealthReflect Careers](https://www.healthreflect.com/career)
+ 
+  HealthReflect is about to bring world’s smartest AI health information platform, offering best & trusted health information at your fingertips. The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries.
+
 ## Refrences
 
 * [Towards Data Science](https://towardsdatascience.com/)
