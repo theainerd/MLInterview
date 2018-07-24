@@ -79,6 +79,8 @@ First, looking at elephants, we can build a model of what elephants look like. T
 ## What is cross validation ?</br> <a name="cv"></br>
 
 Cross Validation is a technique to evaluate predictive models by partitioning the original sample into a training set to train the model, and a validation set to evaluate it. For ex: K fold CV divides the data into k folds, train on each k-1 folds and evaluate it on remaining 1 fold. The result of k models can be averaged to get a overall model performance.
+
+Time - Series Cross Validation :  Use forward chaining strategy
 ![](https://github.com/theainerd/MLInterview/blob/master/images/10_fold_cv.png)
 
 ## What is overfitting? <a name="of"></br>
