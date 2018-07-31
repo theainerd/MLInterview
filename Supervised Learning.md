@@ -221,7 +221,11 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
 
 ## Metrics <a name="metrics">
    
-   - **Accuracy**
+   - **Confusion Matrix**
+   
+     An NxN matrix where N is the no. of classes, that summarizes how successful a classification model's predictions are.
+   
+   - **Accuracy**</br>
      Accuracy is the fraction of predictions our model got right.</br>
      Suppose you build a model that classified 100 tumors as malignant (the positive class) or benign (the negative class):
      ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-40-16.png)
@@ -229,21 +233,21 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
   - **Recall or Sensitivity or True Positive Rate**</br>
     ![](https://github.com/theainerd/MLInterview/blob/master/images/Precisionrecall.svg.png)
     
-    Number of items correctly identified as positive out of total true positives.
+    Number of items correctly identified as positive out of total true positives. High recall means you’re not missing many positives.
     ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-47-10.png)
     Our model has a recall of 0.11—in other words, it correctly identifies 11% of all malignant tumors.
 
   - **Precision** </br>
-    Number of items correctly identified as positive out of total items identified as positive.
+    Number of items correctly identified as positive out of total items identified as positive. High precision means low “false alarm rate” (if you test positive, you’re probably positive)
     ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-46-53.png)
     Our model has a precision of 0.5—in other words, when it predicts a tumor is malignant, it is correct 50% of the time.
-  - **Specificity**</br>
+  - **True Negative Rate or Specificity**</br>
     Number of items correctly identified as negative out of total true negatives.
 
-  - **Type 1 Error or False Positive Rate** </br>
+  - **Type 1 Error or False Positive Rate or false alarm rate** </br>
     Number of items wrongly identified as positive out of total true negatives.
 
-  - **Type 2 Error or False Negative Rate** </br>
+  - **Type 2 Error or False Negative Rate or miss rate** </br>
     Number of items wrongly identified as negative out of total
     true positives.
     
@@ -259,14 +263,12 @@ Boosting builds on weak learners, and in an iterative fashion. In each iteration
    **Note** : Higher the MSE, smaller the R_squared and poorer is the model.</br>
    Just like R², adjusted R² also shows how well terms fit a curve or line but adjusts for the number of terms in a model.
    **Note** : The more predictors you add the higher R^2 become hence use adjusted R^2 which adjusts for the degrees of freedom.
-   
-   - **Confusion Matrix**
-   
-   An NxN matrix where N is the no. of classes, that summarizes how successful a classification model's predictions were;
-
 
 ## Explain how a ROC curve works?<br>
+
 The **ROC curve** is a graphical representation of the contrast between true positive rates and the false positive rate at various thresholds.</br>
 It’s often used as a proxy for the trade-off between the sensitivity of the model (true positives) vs the fall-out or the probability it will trigger a false alarm (false positives).
+
+AUC ROC = area under the ROC curve.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-07-09%2009-27-32.png)
