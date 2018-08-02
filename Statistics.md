@@ -6,7 +6,24 @@ characteristics are taken to be representative of the population.</br>
 **Mean** : The sum of all the values in the sample divided by the number of values in the sample/population.</br>
 **Median** : The median is the value separating the higher half of a data sample from the lower half.</br>
 **Standard Deviation** : Square root of the variance. It measures the dispersion around the mean.</br>
+**Percentiles** :  An extension of median to values other than 50%. </br> 
+**Interquartile range (IQR)** : the difference between the 75th and 25th percentile
+**Mode** : The most frequently occuring value
+**Range** : Difference between the maximum value and the minimum value.
 
+Notice that most of these fall into one of two categories: they capture either the center of the distribution (e.g., mean, median, mode), or its spread (e.g., variance, IQR, range). These two categories are often called **measures of central tendency** and **measures of dispersion**, respectively.
+
+# Important Distributions
+ 
+**Gaussian/Normal** : We say x ∼ N (µ, σ2) to mean that x is drawn from a Gaussian (or Normal) distribution with mean µ and
+variance σ2 (or equivalently standard deviation σ). We’ll often use the standard normal distribution, or N (0, 1) (i.e., mean 0 and variance 1).
+
+  * The probability of getting a value within 1 standard deviation of the mean is about 68%. For 2 standard deviations, it’s about 95%, and for 3 standard deviations it’s about 99%. This is sometimes called the **“68-95-99 rule”**.
+  
+**Bernoulli** : A Bernoulli random variable can be thought of as the outcome of flipping a biased coin, where the probability of heads is p. To be more precise, a Bernoulli random variable takes on value 1 with probability p and value 0 with probability 1−p. Its expectation is p, and its variance is p(1 − p).
+
+Bernoulli variables are typically used to model binary random variables.
+## Central Limit Theorem
 ## Hypothesis Testing
 
 Hypothesis testing in statistics is a way for you to test the results of a survey or experiment to see if you have meaningful results. <br>
