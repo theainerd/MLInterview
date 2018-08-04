@@ -1,4 +1,4 @@
-# Statistics Interview Questions for Data Science
+# Statistics for Data Science
 
 **Population** : The entire group one desires information about.<br>
 **Sample** : A subset of the population taken because the entire population is usually too large to analyze. It's 
@@ -24,6 +24,13 @@ variance σ2 (or equivalently standard deviation σ). We’ll often use the stan
 
 Bernoulli variables are typically used to model binary random variables.
 ## Central Limit Theorem
+
+The Central Limit Theorem states that the sampling distribution of the sample means approaches a normal distribution as the sample size gets larger — no matter what the shape of the population distribution. This fact holds especially true for sample sizes over 30.
+
+## Confidence Intervals
+
+A confidence interval is how much uncertainty there is with any particular statistic. Confidence intervals are often used with a margin of error. It tells you how confident you can be that the results from a poll or survey reflect what you would expect to find if it were possible to survey the entire population. 
+
 ## Hypothesis Testing
 
 Hypothesis testing in statistics is a way for you to test the results of a survey or experiment to see if you have meaningful results. <br>
@@ -45,6 +52,3 @@ A p value is used in hypothesis testing to help you support or reject the null h
 ## A/B testing
 
 A statistical way of comparing two (or more) techniques, typically an incumbent against a new rival. A/B testing aims to determine not only which technique performs better but also to understand whether the difference is statistically significant. A/B testing usually considers only two techniques using one measurement, but it can be applied to any finite number of techniques and measures.
-
-
-
