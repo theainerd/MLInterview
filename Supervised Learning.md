@@ -4,6 +4,7 @@
 * [Supervised Learning](#supervisedlearning)
 * [Linear Regression](#linearregression)
 * [Logistic Regression](#lr)
+* [Multiclass Vs MultiLabel Classification](#mcml)
 * [K Nearest Neighbors](#knn)
 * [Naive Bayes](#nb)
 * [Support Vector Machines](#svm)
@@ -30,6 +31,12 @@ _Logistic regression_ is a parametric, discriminative supervised learning algori
 The idea of logistic regression is to find  a relationship between features and probability of particular outcome.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/20170513_gradient_descent_logistic_animation.gif)
+
+## Multiclass Vs Multilabel Classification <a name = "mcml"></br>
+
+Multiclass classification means a classification task with more than two classes; e.g., classify a set of images of fruits which may be oranges, apples, or pears. Multiclass classification makes the assumption that each sample is assigned to one and only one label: a fruit can be either an apple or a pear but not both at the same time.
+
+Multilabel classification assigns to each sample a set of target labels. This can be thought as predicting properties of a data-point that are not mutually exclusive, such as topics that are relevant for a document. A text might be about any of religion, politics, finance or education at the same time or none of these.
 
 ## What is maximum likelihood estimation ? <a name="mle"></br>
 The principle of maximum likelihood states that we should choose
