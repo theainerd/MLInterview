@@ -52,3 +52,13 @@ A p value is used in hypothesis testing to help you support or reject the null h
 ## A/B testing
 
 A statistical way of comparing two (or more) techniques, typically an incumbent against a new rival. A/B testing aims to determine not only which technique performs better but also to understand whether the difference is statistically significant. A/B testing usually considers only two techniques using one measurement, but it can be applied to any finite number of techniques and measures.
+
+## Correlation
+
+Correlation is a statistical measure that describes the association between random variables.
+
+Types of Correlation
+
+* Pearson Correlation Coefficient (measures the linear association between continuous variables)
+* Spearman's Correlation (special case of Pearson ρ applied to ranked (sorted) variables. appropriate to use with both continuous and discrete data.) 
+* Kendall's Tau (more appropriate for discrete data.)
