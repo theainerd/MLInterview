@@ -62,3 +62,36 @@ Types of Correlation
 * Pearson Correlation Coefficient (measures the linear association between continuous variables)
 * Spearman's Correlation (special case of Pearson ρ applied to ranked (sorted) variables. appropriate to use with both continuous and discrete data.) 
 * Kendall's Tau (more appropriate for discrete data.)
+
+## Statistical Hypothesis Tests :star::star:
+
+ ### Normality Tests (Statistical tests that you can use to check if your data has a Gaussian distribution.)
+  * **Shapiro-Wilk Test** : Tests whether a data sample has a Gaussian distribution.</br>
+  
+ ### Correlation Tests (Statistical tests that you can use to check if two samples are related)
+ 
+  * **Pearson’s Correlation Coefficient** : Tests whether two samples have a monotonic relationship. </br>
+   
+  * **Spearman’s Rank Correlation** : Tests whether two samples have a monotonic relationship.</br>
+   
+  * **Chi-Squared Test** : Tests whether two categorical variables are related or independent.</br>
+   
+ ### Parametric Statistical Hypothesis Tests (Statistical tests that you can use to compare data samples.)
+ 
+  * **Student’s t-test** : Tests whether the means of two independent samples are significantly different.</br>
+  
+  * **Paired Student’s t-test** : Tests whether the means of two paired samples are significantly different.</br>
+   
+  * **Analysis of Variance Test (ANOVA)** : Tests whether the means of two or more independent samples are significantly different.
+   
+  * **Repeated Measures ANOVA Test** : Tests whether the means of two or more paired samples are significantly different.
+  
+  ### Nonparametric Statistical Hypothesis Tests
+  
+   * **Mann-Whitney U Test** : Tests whether the distributions of two independent samples are equal or not.
+   * **Wilcoxon Signed-Rank Test** : Tests whether the distributions of two paired samples are equal or not.
+   * **Kruskal-Wallis H Test** : Tests whether the distributions of two or more independent samples are equal or not.
+   * **Friedman Test** : Tests whether the distributions of two or more paired samples are equal or not.
+
+
+
