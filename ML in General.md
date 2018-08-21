@@ -70,7 +70,9 @@ A learning model where the number of parameters is not determined prior to train
 Ex: Linear Regression, Logistic Regression, Support Vector Machines etc.
 
 **Generative algorithms model p(x|y)**, that is, the distribution of features given that it belongs to a certain class. A generative algorithm models how the data was generated.</br>
-Ex: Naive Bayes, Hidden Markov Models etc.
+Ex: Naive Bayes, Hidden Markov Models etc.</br>
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-08-21%2020-22-44.png)
 
 Given a training set, an algorithm like logistic regression or the perceptron algorithm (basically) tries to find a straight line—that is, a decision boundary—that separates the elephants and dogs. Then, to classify a new animal as either an elephant or a dog, it checks on which side of the decision boundary it falls, and makes its prediction accordingly.</br>
 
@@ -117,6 +119,9 @@ Regulariztion is a technique to prevent overfitting by penalizing the coefficien
 * **Classification Loss Function**
     * SVM/Hinge loss
     * log loss
+    
+    ![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-08-21%2020-24-08.png)
+
 ## How do you handle missing or corrupted data in a dataset? <a name="missing"></br>
 Before jumping to the methods of data imputation, we have to understand the reason why data goes missing.
 
