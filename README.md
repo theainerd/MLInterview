@@ -111,6 +111,13 @@ I've found four main categories to study:
   **Year Founded**: 2013</br>
   Mad Street Den is one of the top artificial intelligence companies that creates new experiences by building applications for the real world through computer vision and artificial intelligence.
   
+* [SocalCops Careers](https://socialcops.com/careers/)
+
+**Year Founded**: 2013</br>
+SocialCops is a data intelligence company on a mission to solve complex world problems by powering critical decisions. Their platform brings the entire decision-making process to one place — from collecting primary data, accessing secondary data, and merging internal data to visualizing data via intuitive, easy-to-use dashboards.
+
+
+  
 * [Morph.ai Careers](https://blog.morph.ai/careers-morph-ai-67f3090efc0e/)
 
   **Year Founded**: 2016</br>
