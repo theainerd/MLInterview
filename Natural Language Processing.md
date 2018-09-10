@@ -35,3 +35,7 @@ Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatizati
 It is a shallow two-layer neural networks that are trained to construct linguistic context of words.
 It Takes as input a large corpus, and produce a vector space, typically of several hundred dimension, and each word in the corpus is assigned a vector in the space.
 The key idea is context: words that occur often in the same context should have same/opposite meanings.
+
+Two Algorithms:
+* **Skip-Grams** : Predict Context words given target (position independent)
+* **Continuous BAg of Words (CBOW)**: Predict Target word from bag-of-words context.
