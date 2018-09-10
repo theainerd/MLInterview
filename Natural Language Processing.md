@@ -38,4 +38,4 @@ The key idea is context: words that occur often in the same context should have 
 
 Two Algorithms:
 * **Skip-Grams** : Predict Context words given target (position independent)
-* **Continuous BAg of Words (CBOW)**: Predict Target word from bag-of-words context.
+* **Continuous Bag of Words (CBOW)**: Predict Target word from bag-of-words context.
