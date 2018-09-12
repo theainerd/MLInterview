@@ -38,8 +38,16 @@ The key idea is context: words that occur often in the same context should have 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/WordEmbeddings.png)
 
 Two Algorithms:
-* **Skip-Grams** : Predict Context words given target (position independent)
-* **Continuous Bag of Words (CBOW)**: Predict Target word from bag-of-words context.
+* **Skip-Grams** : The skip-gram model does the exact opposite of the CBOW model, by predicting the surrounding context words
+given the central target word.
+* **Continuous Bag of Words (CBOW)**: CBOW computes the conditional probability of a target word given the context words surrounding it across a window of size k.
+
+**Limitations**:
+
+* When we want to obtain vector representations for phrases such as “hot potato” or “Boston Globe”. We can’t just simply combine the individual word vector representations since these phrases don’t represent the combination of meaning of the individual words. And it gets even more complicated when longer phrases and sentences are considered.
+* use of smaller window sizes produce similar embeddings for contrasting words such as “good” and “bad”, which is not desirable especially for tasks where this differentiation is important such as sentiment analysis.At times these embeddings cluster semantically-similar words which have opposing sentiment polarities.
+
+
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/CBOW.png)
 
