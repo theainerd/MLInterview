@@ -82,8 +82,12 @@ First, looking at elephants, we can build a model of what elephants look like. T
 
 Cross Validation is a technique to evaluate predictive models by partitioning the original sample into a training set to train the model, and a validation set to evaluate it. For ex: K fold CV divides the data into k folds, train on each k-1 folds and evaluate it on remaining 1 fold. The result of k models can be averaged to get a overall model performance.
 
-Time - Series Cross Validation :  Use forward chaining strategy
 ![](https://github.com/theainerd/MLInterview/blob/master/images/10_fold_cv.png)
+
+**Time - Series Cross Validation** :  Experimenters cannot cut out a piece in the middle, and train on data before and after this portion. Instead, they need to train on a set of data that is older than the test data.</br>
+![](https://github.com/theainerd/MLInterview/blob/master/images/image6-e1536165830511.png)
+
+With this in mind, there are two major approaches, outlined in Figure, above: the **sliding window** approach and the **expanding window** approach. In the sliding window approach, one uses a fixed size window, shown here in black, for training. Subsequently, the method is tested against the data shown in orange.
 
 ## What is overfitting? <a name="of"></br>
 
