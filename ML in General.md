@@ -129,9 +129,11 @@ Regulariztion is a technique to prevent overfitting by penalizing the coefficien
 ## How do you handle missing or corrupted data in a dataset? <a name="missing"></br>
 Before jumping to the methods of data imputation, we have to understand the reason why data goes missing.
 
-  - **Missing at Random (MAR)**: Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data.
   - **Missing Completely at Random (MCAR)**: The fact that a certain value is missing has nothing to do with its hypothetical         value and with the values of other variables.
-  - **Missing not at Random (MNAR)**: Two possible reasons are that the missing value depends on the hypothetical value (e.g.         People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable).
+  
+  - **Missing at Random (MAR) - a weaker assumption than MCAR**: Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data.</br>
+  
+ - **Missing not at Random (MNAR)**: Two possible reasons are that the missing value depends on the hypothetical value (e.g.         People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable).
   
   * Mean, Median and Mode Imputation
   * Multiple Imputation
@@ -143,6 +145,8 @@ Before jumping to the methods of data imputation, we have to understand the reas
 * Over sampling of the minority class or Under sampling of the majority class.
 * SMOTE (Synthetic Minority Over-sampling Technique.)
 * Anomaly Detection
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-09-21%2009-20-55.png)
 
 ## how do you detect outliers? <a name="out"></br>
 
