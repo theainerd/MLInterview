@@ -53,7 +53,13 @@ As the name speaks for itself, the hierarchical clustering forms the hierarchy o
 ## Cons
 * Lower efficiency, as it has a time complexity of O(n³)
 
-## Principal Component Analysis
+## Dimesionality Reduction Technique
+
+Mainly there are two types of dimesion reduction technique:
+1. Matrix Factorization(PCA)
+2. Neighbour Graphs (UMAP, T-SNE)
+
+### PCA (Principal Component Analysis)
 * Principal Component Analysis (PCA) is a dimension reduction technique that projects
 the data into a lower dimensional space
 * PCA uses Singular Value Decomposition (SVD), which is a matrix factorization method
@@ -63,4 +69,18 @@ that decomposes a matrix into three smaller matrices (more details of SVD [here]
 the more information is contained, thus the more important this dimension is for the
 pattern recognition of the dataset
 * PCA can be used as pre-step for data visualization: reducing high dimensional data
-into 2D or 3D. An alternative dimensionality reduction technique is [t-SNE](https://lvdmaaten.github.io/tsne/)
+into 2D or 3D.
+Note : PCA is interpretable dimension reduction.
+
+### T-SNE(t-distributed stochastic neighbor embedding)
+
+* It is a nonlinear dimensionality reduction technique well-suited for embedding high-dimensional data for visualization in a low-dimensional space of two or three dimensions.
+* The t-SNE algorithm comprises two main stages.First, t-SNE constructs a probability distribution over pairs of high-dimensional objects in such a way that similar objects have a high probability of being picked, whilst dissimilar points have an extremely small probability of being picked. 
+* Second, t-SNE defines a similar probability distribution over the points in the low-dimensional map, and it minimizes the Kullback–Leibler divergence between the two distributions with respect to the locations of the points in the map.
+
+
+### UMAP(Uniform Manifold Approximation and Projection)
+
+* UMAP (Uniform Manifold Approximation and Projection) is a novel manifold learning technique for dimension reduction
+* The UMAP algorithm is competitive with t-SNE for visualization quality, and arguably preserves more of the global structure with superior run time performance. 
+* UMAP’s topological foundations allow it to scale to signicantly larger dataset sizes than are feasible for t-SNE.
