@@ -22,7 +22,8 @@ _Linear Regression_ is a parametric, discriminative supervised learning algorith
 ![](https://github.com/theainerd/MLInterview/blob/master/images/maxresdefault.jpg)
 
 ## What is gradient descent ? <a name="gd"></br>
-_Gradient Descent_ is an optimization algorithm that starts with intial set of parameter values and iteratively moves towards a set of values that minimize the function. This iterative minimization is done by taking steps towards the negative direction of the function gradient.
+_Gradient Descent_ is a first order optimization algorithm which is used for finding the local minima of an
+objective function. It starts with intial set of parameter values and iteratively moves towards a set of values that minimize the function. This iterative minimization is done by taking steps towards the negative direction of the function gradient.
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/1_7VyTVnlVj2Ooqa3MRSRFEQ.gif)
 
