@@ -134,9 +134,15 @@ Before jumping to the methods of data imputation, we have to understand the reas
   - **Missing at Random (MAR) - a weaker assumption than MCAR**: Missing at random means that the propensity for a data point to be missing is not related to the missing data, but it is related to some of the observed data.</br>
   
  - **Missing not at Random (MNAR)**: Two possible reasons are that the missing value depends on the hypothetical value (e.g.         People with high salaries generally do not want to reveal their incomes in surveys) or missing value is dependent on some other variable’s value (e.g. Let’s assume that females generally don’t want to reveal their ages! Here the missing value in age variable is impacted by gender variable).
+ 
+  Methods :
   
-  * Mean, Median and Mode Imputation
+  * **Listwise Deletion** : In the listwise deletion method, all rows that have one or more column values missing are deleted.
+  
+  * **Mean, Median and Mode Imputation**: In the mean/median/mode imputation method, all missing values in a particular column are substituted with the mean/median/mode, which is calculated using all the values available in that column.
+  
   * Multiple Imputation
+  * Last Observation Carried Forward (LOCF)**
   * KNN (K Nearest Neighbors)
 
 ## How would you handle an imbalanced dataset? <a name="imb"></br>
@@ -152,20 +158,10 @@ Before jumping to the methods of data imputation, we have to understand the reas
 
 Outliers are extreme values that deviate from other observations on data , they may indicate a variability in a measurement, experimental errors or a novelty.
 
-Most common causes of outliers on a data set:
+### How to find outliers 
+* Visualize the Data</br>
+ * **Histogram**: A histogram is the best way to check univariate data — data containing a single variable — for outliers
+ * **Scatter Plot**: A scatter plot is useful to find outliers in bivariate data (data with two variables). You can easily spot the outliers because they will be far away from the majority of points on the scatter plot.
+ * **Box Plots**
+ * incomplete
 
-* Data entry errors (human errors)
-* Measurement errors (instrument errors)
-* Experimental errors (data extraction or experiment planning/executing errors)
-* Intentional (dummy outliers made to test detection methods)
-* Data processing errors (data manipulation or data set unintended mutations)
-* Sampling errors (extracting or mixing data from wrong or various sources)
-
-Some of the most popular methods for outlier detection are:
-
-* **Extreme Value Analysis**: Determine the statistical tails of the underlying distribution of the data. For example, statistical methods like the z-scores on univariate data.
-* **Probabilistic and Statistical Models**: Determine unlikely instances from a probabilistic model of the data. For example, gaussian mixture models optimized using expectation-maximization.
-* **Linear Models**: Projection methods that model the data into lower dimensions using linear correlations. For example, principle component analysis and data with large residual errors may be outliers.
-* **Proximity-based Models**: Data instances that are isolated from the mass of the data as determined by cluster, density or nearest neighbor analysis.
-* **Information Theoretic Models**: Outliers are detected as data instances that increase the complexity (minimum code length) of the dataset.
-* **High-Dimensional Outlier Detection**: Methods that search subspaces for outliers give the breakdown of distance based measures in higher dimensions (curse of dimensionality).
