@@ -30,6 +30,10 @@ Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatizati
 ## What is tf - idf?
 **TF-IDF** reveals what words are the most discriminating between different bodies of text. It is dependent on term frequency, how often a word appears, and Inverse document frequency, whether it is unique or common among all documents. It is particularly, helpful if you are trying to see the difference between words that occur a lot in one document, but fail to appear in others allowing you interpret something special about that document.
 
+**Example**:
+
+Consider a document containing 100 words wherein the word cat appears 3 times. The term frequency (i.e., tf) for cat is then (3 / 100) = 0.03. Now, assume we have 10 million documents and the word cat appears in one thousand of these. Then, the inverse document frequency (i.e., idf) is calculated as log(10,000,000 / 1,000) = 4. Thus, the Tf-idf weight is the product of these quantities: 0.03 * 4 = 0.12.
+
 ## N gram
 
 * n-gram is a contiguous sequence of n items from a given sample of text or speech
