@@ -111,10 +111,10 @@ I've found four main categories to study:
   **Year Founded**: 2013</br>
   Mad Street Den is one of the top artificial intelligence companies that creates new experiences by building applications for the real world through computer vision and artificial intelligence.
   
-* [SocalCops Careers](https://socialcops.com/careers/)
+ * [SocalCops Careers](https://socialcops.com/careers/)
 
-**Year Founded**: 2013</br>
-SocialCops is a data intelligence company on a mission to solve complex world problems by powering critical decisions. Their platform brings the entire decision-making process to one place — from collecting primary data, accessing secondary data, and merging internal data to visualizing data via intuitive, easy-to-use dashboards.
+   **Year Founded**: 2013</br>
+   SocialCops is a data intelligence company on a mission to solve complex world problems by powering critical decisions. Their platform brings the entire decision-making process to one place — from collecting primary data, accessing secondary data, and merging internal data to visualizing data via intuitive, easy-to-use dashboards.
 
 
   
@@ -163,10 +163,17 @@ SocialCops is a data intelligence company on a mission to solve complex world pr
   
  * [HealthReflect Careers](https://www.healthreflect.com/career)
  
-  HealthReflect is about to bring world’s smartest AI health information platform, offering best & trusted health information at your fingertips. The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries.
+    HealthReflect is about to bring world’s smartest AI health information platform, offering best & trusted health information at your fingertips. The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries.
+  
+  * [praktice.ai Careers](https://angel.co/praktice-ai/jobs)
+  
+      Simplifying health practices through Artificial Intelligence & Speech Technology
+  
+    
 
 ## Refrences
 
 * [Towards Data Science](https://towardsdatascience.com/)
 * [Data Science Group, IITR](https://medium.com/data-science-group-iitr)
 * [data-science-question-answer](https://github.com/ShuaiW/data-science-question-answer#cnn)
+* [CS 229 ― Machine Learning CheatSheet](https://stanford.edu/~shervine/teaching/cs-229.html)
