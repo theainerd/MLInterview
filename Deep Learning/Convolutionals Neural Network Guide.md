@@ -1,8 +1,5 @@
 # Convolutional Neural Network
-
-Almost 20 years ago already proposed the LeNet, a novel DCNN architecture for object recognition, but only in 2012 an implementation by [8], the AlexNet, was first able
-to beat more traditional geometrical approaches on the most popular object recognition contest - the ILSVRC. Ever since, DCNNs have been achieving state-of-the-art results on
-object recognition tasks.
+The AlexNet, was first able to beat more traditional geometrical approaches on the most popular object recognition contest - the ILSVRC. Ever since, DCNNs have been achieving state-of-the-art results on object recognition tasks.
 
 # Why CNN
 
