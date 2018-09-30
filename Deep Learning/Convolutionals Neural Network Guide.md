@@ -20,7 +20,7 @@ Neurons of the convolution operator can recognize certain local patterns of the 
 one layer, it is required to have several Filters. How many convolutions are being conducted is defined by another hyperparameter, called Stride, which determines
 how big the gap between two scanned regions is.
 
-Why Padding ?? (Having Certaing Width & Height + Cover the edges of images much better )
+Why Padding ?? (Having Certain Width & Height + Cover the edges of images much better )
 
 2. **Pooling Layer**: The third kind of layer, which has the purpose of decreasing the complexity of CNNs, is the Pooling
 Layer. Similarly to the convolutional layer, neurons in the pooling layer are connected to a square sized region across
