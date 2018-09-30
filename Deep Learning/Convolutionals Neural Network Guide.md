@@ -132,5 +132,5 @@ ual connections enable the training of even deeper networks.
 
 Refrences:
 
-[A Non-Technical Survey on Deep Convolutional Neural Network Architectures](https://arxiv.org/pdf/1803.02129.pdf):star::star::star::star:
-[CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
+* [A Non-Technical Survey on Deep Convolutional Neural Network Architectures](https://arxiv.org/pdf/1803.02129.pdf):star::star::star::star:
+* [CS231n: Convolutional Neural Networks for Visual Recognition](http://cs231n.stanford.edu/)
