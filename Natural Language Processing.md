@@ -23,6 +23,20 @@ The goal of both stemming and lemmatization is to reduce inflectional forms and 
 
 Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatization can even convert words which are different and cant be solved by stemmers, for example converting “came” to “come”.
 
+## Parts-of-Speech (POS) tagging
+
+Part-of-speech tagging (POS tagging) is the task of tagging a word in a text with its part of speech. A part of speech is a category of words with similar grammatical properties. Common English parts of speech are noun, verb, adjective, adverb, pronoun, preposition, conjunction, etc. 
+
+## Named Entity Recognition (NER)
+
+In the Named Entity Recognition (NER) task, systems are required to recognize the Named Entities occurring in the text. More specifically, the task is to find Person (PER), Organization (ORG), Location
+(LOC) and Geo-Political Entities (GPE). For instance, in the statement ”Shyam lives in India”, NER system extracts Shyam which refers to name of the person and India which refers to name of the country.
+
+## Corefrence resolution(CR)
+
+Coreference Resolution is the task which determines which noun phrases (including pronouns,
+proper names and common names) refer to the same entities in documents . For instance, in the sentence, ”I have seen the annual report. It shows that we have gained 15% profit in this financial year”. Here, ”I” refers to name of the person, ”It” refers to annual report and ”we” refers to the name of the company in which that person works.(Kong et al., 2010)
+
 ## What is Bag of Words?
 **Bag of words (BoW)** builds a vocabulary of all the unique words in our dataset, and associate a unique index to each word in the vocabulary.It is called a "bag" of words, because it is a representation that completely ignores the order of words.
 ![Bag of Words](https://github.com/theainerd/MLInterview/blob/master/images/bag.jpg)
