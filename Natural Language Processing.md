@@ -13,13 +13,22 @@
 ## What is Tokenization?
 
 **Tokenization** is the process of converting a sequence of characters into a sequence of tokens.
-Ex :RegexpTokenizer & Word Tokenize (scikit-learn)
+Ex :RegexpTokenizer & Word Tokenize (scikit-learn)</br>
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-10-04%2014-14-08.png)
 
+## What is stop words?
+
+**Stop words** are words that are particularly common in a text corpus and thus considered as rather un-informative.
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-10-04%2014-14-25.png)
 ## What is Stemming and lemmatization?
 
 The goal of both stemming and lemmatization is to reduce inflectional forms and sometimes derivationally related forms of a word to a common base form.</br>
+
 **Stemming** usually refers to a crude heuristic process that chops off the ends of words in the hope of achieving this goal correctly most of the time, and often includes the removal of derivational affixes. Different types of stemmers in NLTK are PorterStemmer, LancasterStemmer, SnowballStemmer.</br>
-**Lemmatization** usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma.
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-10-04%2014-14-52.png)
+
+**Lemmatization** usually refers to doing things properly with the use of a vocabulary and morphological analysis of words, normally aiming to remove inflectional endings only and to return the base or dictionary form of a word, which is known as the lemma.</br>
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-10-04%2014-16-00.png)
 
 Note : It uses a knowledgebase called WordNet. Because of knowledge, lemmatization can even convert words which are different and cant be solved by stemmers, for example converting “came” to “come”.
 
@@ -51,10 +60,8 @@ Consider a document containing 100 words wherein the word cat appears 3 times. T
 ## N gram
 
 * n-gram is a contiguous sequence of n items from a given sample of text or speech
-* An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.
-* Consider this example: `The quick brown fox jumped over the lazy dog.`
-  - bigram would be `the quick`, `quick brown`, `brown fox`, ..., i.e, every two consecutive words (or tokens)
-  - trigram would be `the quick brown`, `quick brown fox`, `brown fox jumped`, ..., i.e., every three consecutive words (or tokens)
+* An n-gram of size 1 is referred to as a "unigram"; size 2 is a "bigram" size 3 is a "trigram". Larger sizes are sometimes referred to by the value of n in modern language, e.g., "four-gram", "five-gram", and so on.</br>
+![](https://github.com/theainerd/MLInterview/blob/master/images/Screenshot%20from%202018-10-04%2014-17-53.png)
 * ngram model models sequence, i.e., predicts next word (n) given previous words (1, 2, 3, ..., n-1)
 * multiple gram (bigram and above) captures **context**
 * to choose n in n-gram requires experiments and making tradeoff between stability of the estimate against its appropriateness. Rule of thumb: trigram is a common choice with large training corpora (millions of words), whereas a bigram is often used with smaller ones.
