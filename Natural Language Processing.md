@@ -5,10 +5,14 @@
   - Remove all irrelevant characters such as any non alphanumeric characters
   - Tokenize your text by separating it into individual words
   - Remove words that are not relevant, such as “@” twitter mentions or urls
-  - Convert all characters to lowercase, in order to treat words such as “hello”, “Hello”, and “HELLO” the same
+  - Convert all characters to lowercase((**Case folding**), in order to treat words such as “hello”, “Hello”, and “HELLO” the same. (Note)
   - Consider combining misspelled or alternately spelled words to a single representation (e.g. “cool”/”kewl”/”cooool”)
   - Consider lemmatization (reduce words such as “am”, “are”, and “is” to a common form such as “be”)
   - Consider removing stopwords (such as a, an, the, be)etc.
+
+Note : For tasks like speech recognition and information retrieval, everything is mapped to lower case. For sentiment anal-
+ysis and other text classification tasks, information extraction, and machine translation, by contrast, case is quite helpful and case folding is generally not done (losing the difference, for example, between US the country and us the pronoun can out-
+weigh the advantage in generality that case folding provides)
 
 ## What is Tokenization?
 
@@ -87,5 +91,15 @@ given the central target word.
 
 
 ![](https://github.com/theainerd/MLInterview/blob/master/images/CBOW.png)
+
+## NLP Metrics
+
+**Perplexity** : The perplexity (sometimes called PP for short)
+of a language model on a test set is the inverse probability of the test set, normalized
+by the number of words. (*Smaller is better*)
+
+Note : Perplexity does not guarantee an (extrinsic) im-
+provement in the performance of a language processing task like speech recognition
+or machine translation.
 
 
