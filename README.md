@@ -56,7 +56,7 @@ I've found four main categories to study:
 
 ## Machine Learning/ Analytics Startups in India (Careers Page)
 
-| Name    | Product & Carrers Page     | Year Founded|
+| Name    | Product & Careers Page     | Year Founded|
 | :---:  | :---: | :---: |
 | ![](https://github.com/theainerd/MLInterview/blob/master/images/download.jpeg) </br> **Arya.ai** | Simplifies buildout and manages deployment of Deep Learning based applications </br> [Arya.ai Careers](https://angel.co/arya-ai/jobs) | 2013 |
 | ![](https://github.com/theainerd/MLInterview/blob/master/images/a.png) </br> **Haptik.ai** | World's largest chatbot platforms, building applications for consumers, publishers, and enterprises. </br> [Haptik.ai Careers](https://haptik.ai/careers/) | 2013 |
