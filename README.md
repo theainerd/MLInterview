@@ -56,122 +56,28 @@ I've found four main categories to study:
 
 ## Machine Learning/ Analytics Startups in India (Careers Page)
 
-* [Arya.ai Careers](https://angel.co/arya-ai/jobs)
+| Name    | Product & Carrers Page     | Year Founded|
+| :---:  | :---: | :---: |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/download.jpeg) </br> **Arya.ai** | Simplifies buildout and manages deployment of Deep Learning based applications </br> [Arya.ai Careers](https://angel.co/arya-ai/jobs) | 2013 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/a.png) </br> **Haptik.ai** | World's largest chatbot platforms, building applications for consumers, publishers, and enterprises. </br> [Haptik.ai Careers](https://haptik.ai/careers/) | 2013 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/edge%20network.png) </br> **Edge Networks** |   NextGen Technology Solutions for Workforce Transformation </br> [Edge Networks Careers](https://edgenetworks.in/job-opportunities/) | 2012 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/c.jpeg) </br> **Netradyne** |  Creating Solutions for real world problems using Computer Vision and Deep Learning Technologies </br> [Netradyne Careers](https://netradyne.com/careers/) | 2015|
+| ![Niki.ai](https://d1qb2nb5cznatu.cloudfront.net/startups/i/728423-c4b43d84a2f4733555fed9de5ca1194a-medium_jpg.jpg "Niki AI") </br> **niki.ai** | Bot that will guide you along with recommendations to reach the right service & make transactions </br> [niki.ai Careers](https://angel.co/niki/jobs) | 2015 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/d.png) </br> **Active.ai** | Delivers conversational banking services to help banks and financial institutions redefine their future digital strategy. </br> [Active.ai Careers](https://active.ai/careers/) | 2016|
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/e.png) </br> **AIndra Systems** | AIndra Systems is a technology ai startup that builds products in the artificial intelligence domain </br> [AINDRA Careers](http://www.aindra.in/) | 2012 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/g.png) </br> **Locus.sh** |  Locus.sh uses data driven algorithms to optimize logistics for businesses. </br> [Locus.sh Careers](https://locus.sh/careers/) | 2015 |
+| ![Mad Street Den](https://imgee.s3.amazonaws.com/imgee/0bfb02e0a98c4c20a291b400c207f372.png) </br> **Mad Street Den** |Computer Vision for fashion under the brand </br> [Mad Street Den Careers](https://angel.co/mad-street-den/jobs) | 2013 |
+| ![SocialCops](https://socialcops.com/images/old/global/logo-socialcops-dark.svg) </br> **SocialCops** | Apps to collect data, visualization platforms </br> [Social Cops Careers](https://socialcops.com/careers/culture/) | 2013 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/h.png) </br> **Morph.ai** | Morph uses a chatbot to create personalized conversions for marketing. </br> [Morph.ai Careers](https://blog.morph.ai/careers-morph-ai-67f3090efc0e/) | 2016|
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/i.png) </br> **SigTuple** |  SigTuple analyze visual medical data through artificial intelligence to aid diagnosis using intelligent screening solutions. </br> [SigTuple Careers](https://sigtuple.bamboohr.com/jobs/)  |2015 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/download.png) </br> **Agara Labs** | Agara Labs is using deep learning to solve key problems at scale for global enterprises. </br> [Agara Labs Careers](https://agaralabs.com/)  | 2017|
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/i.jpeg) </br> **Sigmoid** |  </br> Specializes in data science and data engineering solutions around the world [Sigmoid Careers](https://www.sigmoid.com/careers/current-openings/) | 2013 |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/j.jpeg) </br> **Tricog** | Tricog has a mission to reduce mortality caused by heart attacks. </br>  [Tricog Health Careers](https://angel.co/tricog/jobs)| 2014|
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/indigene.png) </br> **Indegene** | Indegene is an Information Technology and Services company that assists healthcare organisations using analytics and technology. </br> [Indegene Careers](https://careers.indegene.com/careers/Opportunities.aspx)| -- |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/innoplexus.png) </br> **Innoplexus** | It aims at cutting drug development costs by mainly using AI.</br> [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)  | -- |
+| ![](https://github.com/theainerd/MLInterview/blob/master/images/healthreflect.png) </br> **HealthReflect** |  The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries. </br> [HealthReflect Careers](https://www.healthreflect.com/career) | -- |
   
-  **Year Founded**: 2013</br> 
-  Arya.ai is a platform for developers and enterprises that simplifies buildout and manages deployment of Deep Learning based applications.
-
-* [Haptik.ai Careers](https://haptik.ai/careers/)
-  
-  **Year Founded**: 2013</br>
-  World's largest chatbot platforms, building applications for consumers, publishers, and enterprises.
-  
-* [Edge Networks Careers](https://edgenetworks.in/job-opportunities/)
-  
-  **Year Founded**: 2012</br>
-  NextGen Technology Solutions for Workforce Transformation
-  
-* [Netradyne Careers](https://netradyne.com/careers/)
-
-  **Year Founded**: 2015</br>
-  Creating Solutions for real world problems using Computer Vision and Deep Learning Technologies
-  
-* [niki.ai Careers](https://angel.co/niki/jobs)
-
-  **Email**: careers@niki.ai</br>
-  **Year Founded**: 2015</br>
-  Niki is an Artificial Intelligence powered bot that you can chat with - it will guide you along with recommendations to reach the right service and then goes to the last mile to make that transaction for you.
-  
-* [Active.ai Careers](https://active.ai/careers/)
-
-  **Year Founded**: 2016</br>
-  Active.Ai, a Singapore Head Quartered Fintech startup with innovation lab in Bengaluru, through artificial intelligence (AI) that delivers conversational banking services to help banks and financial institutions redefine their future digital strategy.
-  
-* [AINDRA Careers](http://www.aindra.in/)
-
-  **Year Founded**: 2012</br>
-  AIndra Systems is a technology ai startup that builds products in the artificial intelligence domain that can solve high impact problems.
-  
-* [Artivatic Careers](https://artivatic.ai/#/company/career#positions)
-
-  **Year Founded**: 2016</br>
-  Artivatic Data Labs helps individuals make better personalized decisions.
-  
-* [Fluid AI Careers](http://trutechcareers.careersitemanager.com/)
-
-  Fluid AI believes in the power of artificial intelligence to solve the most unique and biggest problems in different sectors like web, government, finance, and marketing.
-  
-* [Locus.sh Careers](https://locus.sh/careers/)
-
-  **Year Founded**: 2015</br>
-  Locus.sh uses data driven algorithms to optimize logistics for businesses.
-  
-* [Mad Street Den Careers](https://angel.co/mad-street-den/jobs)
-
-  **Year Founded**: 2013</br>
-  Mad Street Den is one of the top artificial intelligence companies that creates new experiences by building applications for the real world through computer vision and artificial intelligence.
-  
- * [SocalCops Careers](https://socialcops.com/careers/)
-
-   **Year Founded**: 2013</br>
-   SocialCops is a data intelligence company on a mission to solve complex world problems by powering critical decisions. Their platform brings the entire decision-making process to one place — from collecting primary data, accessing secondary data, and merging internal data to visualizing data via intuitive, easy-to-use dashboards.
-
-
-  
-* [Morph.ai Careers](https://blog.morph.ai/careers-morph-ai-67f3090efc0e/)
-
-  **Year Founded**: 2016</br>
-  Morph uses a chatbot to create personalized conversions for marketing.
-  
-* [SigTuple Careers](https://sigtuple.bamboohr.com/jobs/)
-
-  **Year Founded**: 2015</br>
-  SigTuple analysis visual medical data through artificial intelligence to aid diagnosis using intelligent screening solutions.
-  
-* [Agara Labs Careers](https://agaralabs.com/)
-
-  **Year Founded**: 2017</br>
-  **Email** : careers@agaralabs.com
-  Agara Labs is using deep learning to solve key problems at scale for global enterprises.
-  
-* [Analytics Vidya Careers](https://www.analyticsvidhya.com/about-me/career-analytics-vidhya/)
-
-  **Year Founded**: 2014</br>
-  This platform allows people to know more about analytics from its articles, Q&A forum, and learning paths. Also, we help professionals & amateurs to sharpen their skillsets by providing a platform to participate in Hackathons.
-  
-* [Sigmoid Careers](https://www.sigmoid.com/careers/current-openings/)
-
-  **Year Founded**: 2013</br>
-  Sigmoid is a leading big data and advanced analytics firm that specializes in data science and data engineering solutions around the world. Sigmoid has revolutionized the areas of business intelligence, AI and machine learning by solving diverse use cases across hi-tech industries.
-  
-
-  
-### AI Companies For Pharma Sector
-
-* [Tricog Health Careers](https://angel.co/tricog/jobs)
-
-  **Year Founded**: 2014</br>
-  Tricog has a mission to reduce mortality caused by heart attacks by helping patients gain access to quick, accurate, and affordable diagnosis within minutes of their arrival at clinics.
-  
-* [Indegene Careers](https://careers.indegene.com/careers/Opportunities.aspx)
-
-  Indegene is an Information Technology and Services company that assists healthcare organisations using analytics and technology.
-  
-* [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)
-
-  It aims at cutting drug development costs by mainly using AI.
-  
- * [HealthReflect Careers](https://www.healthreflect.com/career)
- 
-    HealthReflect is about to bring world’s smartest AI health information platform, offering best & trusted health information at your fingertips. The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries.
-  
-  * [praktice.ai Careers](https://angel.co/praktice-ai/jobs)
-  
-      Simplifying health practices through Artificial Intelligence & Speech Technology
-  
-    
-
-## Refrences
+### Refrences
 
 * [Towards Data Science](https://towardsdatascience.com/)
 * [Data Science Group, IITR](https://medium.com/data-science-group-iitr)
