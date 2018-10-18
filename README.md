@@ -3,17 +3,6 @@
 [![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/0)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/0)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/1)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/1)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/2)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/2)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/3)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/3)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/4)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/4)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/5)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/5)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/6)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/6)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/7)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/7)
 
 > When you cease to dream, you cease to live.
-
-**NOTE** : Start with probability, move to distributions, and then tackle inference and prediction. You’ll have an easier time, I promise.
-
-I've found four main categories to study:
-
-* Machine Learning
-* Statistics & Probability
-* Other Relevant Mathematics
-* Programming
-  - Concepts for quiz-like questions
-  - Practicals for interview coding sessions
   
 [Data Science Interview Prep](https://in.udacity.com/course/data-science-interview-prep--ud944)
 
