@@ -34,8 +34,8 @@ k-means clustering aims to partition n observations into k clusters in which eac
 * K-means also starts with a random choice of cluster centers and therefore it may yield different clustering results on different runs of the algorithm. Thus, the results may not be repeatable and lack consistency.
 
 ## Determining The Optimal Number Of Clusters: 3 Must Know Methods?
-- Elbow method
-- Average silhouette method
+- Elbow method (within-cluster sum of square vs number of clusters) **We want it to be as small as possible**
+- Average silhouette method (average silhouette of observations (avg.sil) vs number of clusters) **high average silhouette width indicates a good clustering**
 - Gap statistic method
 
 ## Hierarchical Clustering
