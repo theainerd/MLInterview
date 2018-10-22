@@ -1,4 +1,4 @@
-# Machine Learning Interview Questions
+# Supervised Learning
 
 # Table of Contents
 * [Supervised Learning](#supervisedlearning)
