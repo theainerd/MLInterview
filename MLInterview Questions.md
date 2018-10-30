@@ -10,14 +10,17 @@ Cross-entropy loss measures how close is the predicted distribution to the true 
 Why the Negative Sign? </br>
 Log Loss uses negative log to provide an easy metric for comparison. It takes this approach because the positive log of numbers < 1 returns negative values, which is confusing to work with when comparing the performance of two models.
 
-## Explain Bias Variance Trade of in Machine Learning
+## Explain Bias-Variance Tradeoff
 
-https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/
+**Bias** is the simplifying assumptions made by the model to make the target function easier to approximate.[12]
 
-Quick Summary:-
+**Variance** is the amount that the estimate of the target function will change given different training data.
 
-Bias is the simplifying assumptions made by the model to make the target function easier to approximate.
+The **bias–variance trade-off** is the conflict in trying to simultaneously minimize these two sources of error that prevent supervised learning algorithms from generalizing beyond their training set.
 
-Variance is the amount that the estimate of the target function will change given different training data.
+![](https://cdn-images-1.medium.com/max/1600/1*9hPX9pAO3jqLrzt0IE3JzA.png)
 
-Trade-off is tension between the error introduced by the bias and the variance.
+## References
+
+[Machine Learning Mastery- Bias Variance Tradeoff](https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/)
+
