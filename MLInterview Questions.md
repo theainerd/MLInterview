@@ -12,7 +12,7 @@ Log Loss uses negative log to provide an easy metric for comparison. It takes th
 
 ## Explain Bias-Variance Tradeoff
 
-**Bias** is the simplifying assumptions made by the model to make the target function easier to approximate.[12]
+**Bias** is the simplifying assumptions made by the model to make the target function easier to approximate.
 
 **Variance** is the amount that the estimate of the target function will change given different training data.
 
