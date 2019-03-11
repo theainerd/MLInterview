@@ -66,6 +66,7 @@
 | ![](https://github.com/theainerd/MLInterview/blob/master/images/innoplexus.png) </br> **Innoplexus** | It aims at cutting drug development costs by mainly using AI.</br> [Innoplexus Careers](https://www.innoplexus.com/index.php/career/)  | -- |
 | ![](https://github.com/theainerd/MLInterview/blob/master/images/healthreflect.png) </br> **HealthReflect** |  The platform combines power of machine learning & artificial intelligence (A.I.) to offer predictive & preventive personalised medicine for every patient in India, China, Singapore, UAE & other middle eastern countries. </br> [HealthReflect Careers](https://www.healthreflect.com/career) | -- |
 | ![](http://www.greendeck.co/img/logo.png) </br> **Greendeck** |  Harness the power of AI to ensure that your pricing, promotions and buying strategy are aligned for higher revenue and better margins. </br> [Greendeck Careers](https://angel.co/greendeck/jobs) | 2017 |
+| ![](https://quicktwit.com/logo.png) </br> **QuickTwit** |  See what's trending in your favorite topics of interest. Get the latest trends in your email. See trends from selective twitter accounts. </br> [QuickTwit Careers](https://angel.co/quicktwit) | 2019 |
   
 ### Refrences
 
