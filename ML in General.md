@@ -106,7 +106,7 @@ Regulariztion is a technique to prevent overfitting by penalizing the coefficien
   ### Lasso Regression
   LASSO stands for Least Absolute Shrinkage and Selection Operator.Lasso regression performs L1 regularization, i.e. it adds a factor of sum of absolute value of coefficients in the optimisation objective.
 
-      Objective = RSS + α * (sum of square of coefficients)
+      Objective = RSS + α * (sum of absolute value of coefficients)
 
   ### Elastic nets
   A technique known as Elastic Nets, which is a combination of Lasso
