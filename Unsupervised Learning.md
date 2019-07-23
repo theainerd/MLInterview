@@ -35,9 +35,16 @@ k-means clustering aims to partition n observations into k clusters in which eac
 
 ## Determining The Optimal Number Of Clusters: 3 Must Know Methods?
 - Elbow method (within-cluster sum of square vs number of clusters) **We want it to be as small as possible**
-- Average silhouette method (average silhouette of observations (avg.sil) vs number of clusters) **high average silhouette width indicates a good clustering**
-- Gap statistic method
 
+![](https://github.com/theainerd/MLInterview/blob/master/images/inbox_2181887_42dfac7118608f18d67365a3c35a7aa6_Elbow%20method.png)
+
+- Average silhouette method (average silhouette of observations (avg.sil) vs number of clusters) **high average silhouette width indicates a good clustering**
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/inbox_2181887_2db081ae1af423307f7ae558f76a2063_silhoutte.png)
+
+- Gap statistic method The gap statistic compares the total intracluster variation for different values of k with their expected values under null reference distribution of the data i.e. a distribution with no obvious clustering.
+
+![](https://github.com/theainerd/MLInterview/blob/master/images/inbox_2181887_373d4f8bda1be2b867c2f404dd335e85_unnamed-chunk-16-1.png)
 ## Hierarchical Clustering
 
 It is a type of connectivity model clustering which is based on the fact that data points that are closer to each other are more similar than the data points lying far away in a data space.
