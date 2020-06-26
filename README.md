@@ -71,3 +71,9 @@
 * [Data Science Group, IITR](https://medium.com/data-science-group-iitr)
 * [data-science-question-answer](https://github.com/ShuaiW/data-science-question-answer#cnn)
 * [CS 229 ― Machine Learning CheatSheet](https://stanford.edu/~shervine/teaching/cs-229.html)
+
+Thank you guys if it helped you kindly share this repo with your fellow developers . Also don't forget to create a pull request if you find something relevant . 
+
+Last but not the least click the link below to know more about gitads and help your developers buy some wine :wine_glass: and pizza :pizza: . Happy Learning .
+
+<a href=“https://tracking.gitads.io/?repo=MLInterview”><img src="https://images.gitads.io/MLInterview" alt=“GitAds”/></a>
