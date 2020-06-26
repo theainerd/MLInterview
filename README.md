@@ -76,4 +76,4 @@ Thank you guys if it helped you kindly share this repo with your fellow develope
 
 Last but not the least click the link below to know more about gitads and help your developers buy some wine :wine_glass: and pizza :pizza: . Happy Learning .
 
-<a href=“https://tracking.gitads.io/?repo=MLInterview”><img src="https://images.gitads.io/MLInterview" alt=“GitAds”/></a>
+<a href="https://tracking.gitads.io/?repo=MLInterview"><img src="https://images.gitads.io/MLInterview" alt=“GitAds”/></a>
