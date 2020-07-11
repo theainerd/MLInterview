@@ -74,6 +74,6 @@
 
 Thank you guys if it helped you kindly share this repo with your fellow developers . Also don't forget to create a pull request if you find something relevant . 
 
-Last but not the least click the link below to know more about gitads and help your developers buy some wine :wine_glass: and pizza :pizza: . Happy Learning .
+MLInterview is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial and help your developers buy some wine :wine_glass: and pizza :pizza: . Happy Learning .
 
 <a href="https://tracking.gitads.io/?repo=MLInterview"><img src="https://images.gitads.io/MLInterview" alt=“GitAds”/></a>
