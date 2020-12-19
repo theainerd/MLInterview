@@ -99,7 +99,9 @@ Overfitting or High Variance is a modeling error which is caused by a hypothesis
 Regulariztion is a technique to prevent overfitting by penalizing the coefficients of the cost function.
 
   ### Ridge Regression
-  It performs ‘L2 regularization’, i.e. adds penalty equivalent to square of the magnitude of coefficients. Thus, it optimises the following:
+  It performs ‘L2 regularization’, i.e. adds penalty equivalent to square of the magnitude of coefficients.
+  `L 2 regularizer` is also called a gaussian prior or weight decay .
+  Thus, it optimises the following:
 
     Objective = RSS + α * (sum of square of coefficients)
 
