@@ -1,10 +1,5 @@
 # Machine Learning & Data Science Interview [![](https://img.shields.io/github/license/theainerd/MLInterview.svg)](https://github.com/theainerd/MLInterview/blob/master/LICENSE)
 
-MLInterview is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial and help your developers buy some wine :wine_glass: and pizza :pizza: . Happy Learning .
-
-<a href="https://tracking.gitads.io/?repo=MLInterview"><img src="https://images.gitads.io/MLInterview" alt=“GitAds”/></a>
-
-
 [![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/0)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/0)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/1)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/1)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/2)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/2)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/3)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/3)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/4)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/4)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/5)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/5)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/6)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/6)[![](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/images/7)](https://sourcerer.io/fame/theainerd/theainerd/MLInterview/links/7)
 
 > When you cease to dream, you cease to live.
